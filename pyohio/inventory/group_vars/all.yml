@@ -49,7 +49,7 @@ netboot_image: http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd6
 
 blackmagic:
   desktopvideo: http://dc10b/bm/Blackmagic_Desktop_Video_Linux_10.9.5a4/deb/amd64/desktopvideo_10.9.5a4_amd64.deb
-  desktopvideo_gui: http://dc10b/bm/Blackmagic_Desktop_Video_Linux_10.9.5a4/deb/amd64/desktopvideo-gui_10.9.5a4_amd64.deb
+  # desktopvideo_gui: http://dc10b/bm/Blackmagic_Desktop_Video_Linux_10.9.5a4/deb/amd64/desktopvideo-gui_10.9.5a4_amd64.deb
   mediaexpress: http://dc10b/bm/Blackmagic_Desktop_Video_Linux_10.9.5a4/deb/amd64/mediaexpress_3.5.3a1_amd64.deb
   dkms_version: 10.8.4a4
 
