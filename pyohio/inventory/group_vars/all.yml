@@ -66,10 +66,8 @@ public_keys_root:
 
 streaming: null
 
-# All the things :-/
 serial_terminal:
-    # - hdmi2usbd
-    # - flterm
+- flterm
 - cu
 - minicom
 
