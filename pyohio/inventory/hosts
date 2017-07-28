@@ -4,6 +4,10 @@ cnt4
 cnt5
 cnt6
 cnt7
+odroid4
+odroid5
+odroid6
+odroid7
 
 [dhcp-server]
 
@@ -17,6 +21,10 @@ cnt6
 cnt7
 
 [opsis]
+odroid4
+odroid5
+odroid6
+odroid7
 
 [veyepar-encoder]
 gator
