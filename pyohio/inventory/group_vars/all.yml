@@ -82,8 +82,6 @@ rsync_excludes:
 - 2*.ts
 - 2*.ts.mp4
 - 2*.ts.wav.png
-- 2017-01-14
-- 2017-01-15
 
 # - include: macs-lca.yml
 
