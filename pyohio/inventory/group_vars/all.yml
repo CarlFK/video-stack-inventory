@@ -75,8 +75,6 @@ sources:
 - Camera
 - Grabber
 
-nfs_server: rad
-
 rsync_excludes:
 - 0[0-7]*.ts
 - 0[0-7]*.ts.mp4
