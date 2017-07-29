@@ -107,3 +107,4 @@ staticips:
     ip: 10.0.0.71
   - hostname: gator
     ip: 10.0.0.80
+  gateway: 10.0.0.1
