@@ -3,7 +3,9 @@ room_name: cartoon2
 
 blackmagic_sources:
 - card: 0
-  connection: hdmi-audio
+  connection: HDMI
+  audio: true
+  mode: 18
 
 sources:
 - Camera

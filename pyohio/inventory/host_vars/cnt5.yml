@@ -3,7 +3,8 @@ room_name: suzanne_scharer
 
 blackmagic_sources:
 - card: 0
-  connection: hdmi-audio
+  connection: HDMI
+  audio: true
 
 sources:
 - Camera

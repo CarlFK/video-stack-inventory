@@ -3,7 +3,8 @@ room_name: barbietootle
 
 blackmagic_sources:
 - card: 0
-  connection: sdi-audio
+  connection: SDI
+  audio: true
 
 sources:
 - Camera
