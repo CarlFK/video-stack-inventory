@@ -3,7 +3,7 @@ room_name: cartoon2
 
 blackmagic_sources:
 - card: 0
-  connection: sdi-audio
+  connection: hdmi-audio
 
 sources:
 - Camera
