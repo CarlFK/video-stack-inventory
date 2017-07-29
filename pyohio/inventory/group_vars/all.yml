@@ -85,24 +85,25 @@ rsync_excludes:
 
 # - include: macs-lca.yml
 
-static_ips:
-- hostname: dc10b
-  ip: 10.0.0.1
-- hostname: cnt4
-  ip: 10.0.0.40
-- hostname: odroid4
-  ip: 10.0.0.41
-- hostname: cnt5
-  ip: 10.0.0.50
-- hostname: odroid5
-  ip: 10.0.0.51
-- hostname: cnt6
-  ip: 10.0.0.60
-- hostname: odroid6
-  ip: 10.0.0.61
-- hostname: cnt7
-  ip: 10.0.0.70
-- hostname: odroid7
-  ip: 10.0.0.71
-- hostname: gator
-  ip: 10.0.0.80
+staticips:
+  hosts:
+  - hostname: dc10b
+    ip: 10.0.0.1
+  - hostname: cnt4
+    ip: 10.0.0.40
+  - hostname: odroid4
+    ip: 10.0.0.41
+  - hostname: cnt5
+    ip: 10.0.0.50
+  - hostname: odroid5
+    ip: 10.0.0.51
+  - hostname: cnt6
+    ip: 10.0.0.60
+  - hostname: odroid6
+    ip: 10.0.0.61
+  - hostname: cnt7
+    ip: 10.0.0.70
+  - hostname: odroid7
+    ip: 10.0.0.71
+  - hostname: gator
+    ip: 10.0.0.80
