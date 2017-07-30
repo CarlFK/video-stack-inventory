@@ -8,6 +8,7 @@ odroid4
 odroid5
 odroid6
 odroid7
+trist
 
 [dhcp-server]
 
@@ -25,6 +26,7 @@ odroid4
 odroid5
 odroid6
 odroid7
+trist
 
 [veyepar-encoder]
 gator

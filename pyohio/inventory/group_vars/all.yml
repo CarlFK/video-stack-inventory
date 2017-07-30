@@ -93,6 +93,8 @@ staticips:
     ip: 10.0.0.40
   - hostname: odroid4
     ip: 10.0.0.41
+  - hostname: trist
+    ip: 10.0.0.42
   - hostname: cnt5
     ip: 10.0.0.50
   - hostname: odroid5
