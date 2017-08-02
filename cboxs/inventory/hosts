@@ -1,5 +1,10 @@
 [onsite]
+dc10
+dc10b
 gator
+cnt1
+cnt2
+cnt3
 cnt4
 cnt5
 cnt6
@@ -11,6 +16,10 @@ odroid7
 trist
 val1
 val2
+negk
+bb1
+bb2
+bb3
 
 
 [dhcp-server]
