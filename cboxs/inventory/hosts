@@ -17,10 +17,14 @@ trist
 val1
 val2
 negk
+nk2
 bb1
 bb2
 bb3
 
+[rnd]
+nk2
+cnt1
 
 [dhcp-server]
 
@@ -34,17 +38,22 @@ cnt6
 cnt7
 
 [opsis]
-odroid4
-odroid5
-odroid6
-odroid7
-trist
+# cnt3
+
 
 [veyepar-basic]
 gator
 val1
 val2
+cnt3
+nk2
 
 [veyepar-encoder-nfs-storage]
 
 
+[rnd]
+nk2
+gator
+cnt1
+cnt2
+cnt3
