@@ -5,19 +5,20 @@ user_name: juser
 autologin: True
 
 publisher: ndv
-# org: test_client
-# show: pyohio_2017
-# room:
+org: act_w_chicago
+show: act_w_chicago_2017
+room: room701
 
 time_zone: US/Central
 
 domain: private.lan
 
-# distro: Debian
-# debian_version: stretch
-distro: Ubuntu
+distro: Debian
+debian_version: stretch
+
+# distro: Ubuntu
+# debian_version: xenial
 # debian_version: artful
-debian_version: xenial
 
 # mirror: us.archive.ubuntu.com
 # mirror: deb.debian.org
@@ -84,4 +85,5 @@ rsync_excludes:
 - 2*.ts.wav.png
 
 # - include: macs-lca.yml
+include: boxes.yml
 
