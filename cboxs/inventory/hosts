@@ -25,15 +25,22 @@ bb3
 [rnd]
 nk2
 cnt1
+# cnt6
+
+[tftp-server]
+bb4
+cnt6
 
 [dhcp-server]
+bb4
+cnt6
 
 [nfs-server]
 
 [voctomix]
 cnt4
 cnt5
-cnt6
+# cnt6
 cnt7
 
 [opsis]
