@@ -1,0 +1,71 @@
+---
+user_name: juser
+# user_password_crypted: "$6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0XIl86m5.IbqSOPXJ0mxVUE7y5kGFE/arHgExAxoz0kEULiplZ."
+
+autologin: True
+
+publisher: ndv
+org: act_w_chicago
+show: act_w_chicago_2017
+room: room701
+
+time_zone: US/Central
+
+domain: private.lan
+
+distro: Debian
+debian_version: stretch
+
+# distro: Ubuntu
+# debian_version: xenial
+# debian_version: artful
+
+# mirror: us.archive.ubuntu.com
+# mirror: deb.debian.org
+# apt_proxy: true
+
+apt.enable_oldstable: true
+
+# Git repos:
+# playbook_repo: https://anonscm.debian.org/cgit/debconf-video/ansible.git
+playbook_repo: https://github.com/CarlFK/video-stack-deploy.git
+playbook_branch: pxemenu
+
+# To replace the stock inventory with your own, point at your own github repo
+inventory_repo: https://github.com/CarlFK/video-stack-inventory.git
+inventory_branch: master
+
+# veyepar_confs: /home/carl/src/veyepar
+#
+
+blackmagic:
+  desktopvideo: http://dc10b/bm/Blackmagic_Desktop_Video_Linux_10.9.5a4/deb/amd64/desktopvideo_10.9.5a4_amd64.deb
+  # desktopvideo_gui: http://dc10b/bm/Blackmagic_Desktop_Video_Linux_10.9.5a4/deb/amd64/desktopvideo-gui_10.9.5a4_amd64.deb
+  mediaexpress: http://dc10b/bm/Blackmagic_Desktop_Video_Linux_10.9.5a4/deb/amd64/mediaexpress_3.5.3a1_amd64.deb
+  dkms_version: 10.8.4a4
+
+videodisplay:
+  system: x
+
+# streaming: null
+
+serial_terminal:
+    #- flterm
+- cu
+- minicom
+
+sources:
+- Camera
+- Grabber
+
+rsync_excludes:
+- 0[0-7]*.ts
+- 0[0-7]*.ts.mp4
+- 0[0-7]*.ts.wav.png
+- 2*.ts
+- 2*.ts.mp4
+- 2*.ts.wav.png
+
+# what the pxe server can install
+ubuntu_suites: [trusty, xenial, zesty, artful]
+

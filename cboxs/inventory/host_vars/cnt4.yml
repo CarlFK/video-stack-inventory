@@ -1,0 +1,13 @@
+---
+room_name: cartoon1
+
+# JVC 4k
+blackmagic_sources:
+- card: 0
+  connection: SDI
+  audio: true
+  mode: 17
+
+sources:
+- Camera
+- Grabber

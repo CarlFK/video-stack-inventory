@@ -1,0 +1,14 @@
+---
+room_name: barbietootle
+
+blackmagic_sources:
+# Panasonic AVCCAM modular
+# SDI didn't seem to work as well
+- card: 0
+  connection: HDMI
+  audio: true
+  mode: 18
+
+sources:
+- Camera
+- Grabber

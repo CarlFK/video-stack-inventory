@@ -1,0 +1,5 @@
+---
+# Took over from odroid4, due to overheating
+voctomix:
+  host: 10.0.0.40
+  port: 10001

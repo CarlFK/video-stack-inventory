@@ -1,0 +1,27 @@
+---
+static_ips:
+- hostname: cnt4
+  ip: 10.20.0.10
+  mac: 54:04:a6:c3:33:03
+- hostname: cnt5
+  ip: 10.20.0.40
+  mac: c8:60:00:6a:13:ae
+- hostname: cnt6
+  ip: 10.20.0.20
+  mac: c8:60:00:6a:13:bd
+- hostname: cnt7
+  ip: 10.20.0.30
+  mac: c8:60:00:6d:8d:ca
+- hostname: gator
+  ip: 10.20.0.50
+  mac:
+
+
+boxes:
+- hostname:
+  mac:
+  ip:
+  disk:
+  tasks:
+  comment:
+
