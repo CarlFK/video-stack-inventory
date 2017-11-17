@@ -29,12 +29,12 @@ cnt1
 
 [tftp-server]
 bb4
-cnt6
+# cnt6
 pc8
 
 [dhcp-server]
 bb4
-cnt6
+# cnt6
 pc8
 
 [nfs-server]
@@ -46,8 +46,8 @@ cnt5
 cnt7
 
 [opsis]
+cnt6
 # cnt3
-
 
 [veyepar-basic]
 val1
