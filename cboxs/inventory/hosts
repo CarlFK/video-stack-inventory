@@ -40,13 +40,13 @@ pc8
 [nfs-server]
 
 [voctomix]
-cnt4
+# cnt4
 cnt5
 # cnt6
 cnt7
 
 [opsis]
-cnt6
+# cnt6
 # cnt3
 
 [veyepar-basic]
