@@ -1,0 +1,23 @@
+---
+room_name:  mystic
+
+eth_local_mac_address: c8:60:00:6a:13:bd
+domain: private.lan
+
+blackmagic_sources:
+# JVC 4k
+- card: 0
+  connection: SDI
+  audio: true
+  mode: 17
+
+# Mini JVC, audio is coming from a DVX-100
+- card: 1
+  connection: HDMI
+  audio: true
+  mode: 18
+
+sources:
+- JVC
+- Everio
+- Grabber

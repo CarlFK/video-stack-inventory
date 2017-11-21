@@ -49,6 +49,9 @@ cnt7
 # cnt6
 # cnt3
 
+[xorg]
+cnt6
+
 [veyepar-basic]
 val1
 val2

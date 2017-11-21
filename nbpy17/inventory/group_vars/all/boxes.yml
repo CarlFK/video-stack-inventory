@@ -1,0 +1,6 @@
+---
+boxes:
+    - hostname: cnt6
+      mac: c8:60:00:6a:13:bd
+      disk: sdb
+
