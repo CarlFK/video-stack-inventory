@@ -5,9 +5,9 @@ user_password_crypted: "$6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0
 autologin: True
 
 publisher: ndv
-org: act_w_chicago
-show: act_w_chicago_2017
-room: room701
+org: nbpy
+show: nbpy17
+room: mystic
 
 time_zone: US/Central
 
