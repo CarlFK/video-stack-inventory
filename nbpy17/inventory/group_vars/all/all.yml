@@ -9,7 +9,7 @@ org: nbpy
 show: nbpy17
 room: mystic
 
-time_zone: US/Central
+time_zone: US/Pacific
 
 domain: private.lan
 
@@ -20,9 +20,7 @@ debian_version: stretch
 # debian_version: xenial
 # debian_version: artful
 
-# mirror: us.archive.ubuntu.com
-# mirror: deb.debian.org
-# apt_proxy: true
+apt_proxy: true
 
 apt.enable_oldstable: true
 
@@ -39,9 +37,9 @@ inventory_branch: master
 #
 
 blackmagic:
-  desktopvideo: http://pc8/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/desktopvideo_10.9.7a2_amd64.deb
+  desktopvideo: http://10.42.0.114/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/desktopvideo_10.9.7a2_amd64.deb
 #  desktopvideo_gui: http://pc8/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/desktopvideo-gui_10.9.7a2_amd64.deb
-  mediaexpress: http://pc8/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/mediaexpress_3.5.3a1_amd64.deb
+  mediaexpress: http://10.42.0.114/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/mediaexpress_3.5.3a1_amd64.deb
   dkms_version: 10.9.7a2
 
 videodisplay:
@@ -65,6 +63,11 @@ rsync_excludes:
 - 2*.ts
 - 2*.ts.mp4
 - 2*.ts.wav.png
+
+eth_local_mac_address: b4:99:ba:e9:5c:5c  # dc10b wired
+eth_local_ip_address: 10.42.0.2
+dhcp_range: 10.20.0.128,10.20.0.254,6h
+eth_local_ip_gateway: 10.42.0.1 # twist uplink
 
 # what the pxe server can install
 # ubuntu_suites: [trusty, xenial, zesty, artful]
