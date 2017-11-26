@@ -2,6 +2,7 @@
 room_name:  mystic
 
 # eth_local_mac_address: c8:60:00:6a:13:bd
+static_ip: 10.42.10.1
 domain: private.lan
 
 video_disk: /dev/sda1
