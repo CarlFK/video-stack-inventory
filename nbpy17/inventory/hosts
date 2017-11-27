@@ -4,7 +4,7 @@ odroid4
 dc10b
 
 [rnd]
-dc10b
+# dc10b
 
 [tftp-server]
 dc10b
@@ -25,6 +25,7 @@ cnt6
 
 [veyepar-basic]
 cnt6
+dc10b
 
 [veyepar-encoder-nfs-storage]
 
