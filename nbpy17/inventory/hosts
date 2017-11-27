@@ -1,6 +1,6 @@
 [onsite]
 cnt6
-odroid4
+odroid3
 dc10b
 
 [rnd]
@@ -18,7 +18,7 @@ dc10b
 cnt6
 
 [opsis]
-odroid4
+odroid3
 
 [xorg]
 cnt6
