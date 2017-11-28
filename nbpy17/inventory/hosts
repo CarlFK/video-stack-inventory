@@ -5,6 +5,8 @@ dc10b
 
 [rnd]
 # dc10b
+# cnt6
+
 
 [tftp-server]
 dc10b
@@ -17,6 +19,9 @@ dc10b
 [voctomix]
 cnt6
 
+[voctotests]
+cnt6
+
 [opsis]
 odroid3
 
@@ -24,7 +29,7 @@ odroid3
 cnt6
 
 [veyepar-basic]
-cnt6
+# cnt6
 dc10b
 
 [veyepar-encoder-nfs-storage]
