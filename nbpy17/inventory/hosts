@@ -1,13 +1,13 @@
 [onsite]
 cnt6
+cnt5
 odroid2
 odroid3
 dc10b
 
 [rnd]
 # dc10b
-# cnt6
-
+cnt5
 
 [tftp-server]
 dc10b
