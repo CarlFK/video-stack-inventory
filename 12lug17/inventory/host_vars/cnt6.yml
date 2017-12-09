@@ -6,7 +6,7 @@ room_name: ps1
 static_ip: 10.42.0.20
 # domain: private.lan
 
-video_disk: /dev/sdb1
+# video_disk: /dev/sdb1
 
 blackmagic_sources:
 
