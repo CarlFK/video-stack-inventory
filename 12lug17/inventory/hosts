@@ -23,6 +23,7 @@ odroid3
 [xorg]
 
 [veyepar-basic]
+cnt5
 dc10b
 
 [veyepar-encoder-nfs-storage]
