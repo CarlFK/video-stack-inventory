@@ -8,7 +8,8 @@ static_ip: 10.42.0.20
 
 video_disk: /dev/sda1
 
-# blackmagic_sources:
+blackmagic_sources:
+
 # JVC 4k
 #- card: 0
 #  connection: SDI
