@@ -1,6 +1,4 @@
 ---
-enable_sid: True
-
 sources:
 - test1
 - test2

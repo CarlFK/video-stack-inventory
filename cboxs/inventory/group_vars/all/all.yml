@@ -5,13 +5,12 @@ user_password_crypted: "$6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0
 autologin: True
 
 publisher: ndv
-org: act_w_chicago
-show: act_w_chicago_2017
-room: room701
+org: chicagolug
+show: dec_2017
 
 time_zone: US/Central
 
-domain: private.lan
+# domain: private.lan
 
 distro: Debian
 debian_version: stretch
@@ -24,12 +23,12 @@ debian_version: stretch
 # mirror: deb.debian.org
 # apt_proxy: true
 
-apt.enable_oldstable: true
+# apt.enable_oldstable: true
 
 # Git repos:
 # playbook_repo: https://anonscm.debian.org/cgit/debconf-video/ansible.git
 playbook_repo: https://github.com/CarlFK/video-stack-deploy.git
-# playbook_branch: pxemenu
+playbook_branch: nbpy
 
 # To replace the stock inventory with your own, point at your own github repo
 inventory_repo: https://github.com/CarlFK/video-stack-inventory.git
@@ -39,9 +38,9 @@ inventory_branch: master
 #
 
 blackmagic:
-  desktopvideo: http://pc8/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/desktopvideo_10.9.7a2_amd64.deb
+  desktopvideo: http://twist:8007/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/desktopvideo_10.9.7a2_amd64.deb
 #  desktopvideo_gui: http://pc8/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/desktopvideo-gui_10.9.7a2_amd64.deb
-  mediaexpress: http://pc8/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/mediaexpress_3.5.3a1_amd64.deb
+  mediaexpress: http://twist:8007/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/mediaexpress_3.5.3a1_amd64.deb
   dkms_version: 10.9.7a2
 
 videodisplay:

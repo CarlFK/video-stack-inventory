@@ -1,14 +1,27 @@
 ---
-room_name: suzanne_scharer
+room_name: ps1
+
+static_ip: 10.42.0.10
+# domain: private.lan
+
+# video_disk: /dev/sda1
 
 blackmagic_sources:
-# Mini JVC, audio is coming from a DVX-100
+# JVC 4k
 - card: 0
-  connection: HDMI
+  connection: SDI
+  mode: 17 # (17): HD720 50p        - 720p50
   audio: true
-  mode: 18
+
+# Mini JVC, audio from usb audio dongle
+# - card: 1
+#   connection: HDMI
+#   audio: true
+#   mode: 18
+#   alsa_device: hw:1,0
+#  audio_delay: 1000
 
 sources:
-- Audio Camera
+- JVC
 - Grabber
-- Camera
+  # - Everio
