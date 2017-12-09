@@ -7,7 +7,7 @@ boxes:
 
     - hostname: cnt6
       mac: c8:60:00:6a:13:bd
-      disk: sdb
+      disk: sdc
 
     - hostname: dc10b
       mac: b4:99:ba:e9:5c:5c

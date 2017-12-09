@@ -1,10 +1,10 @@
 ---
-eth_uplink_mac_address: 00:16:d3:c6:68:98
+eth_uplink_mac_address: 80:3f:5d:08:c3:9d # usb2 dongle (yellow tape)
 
 # dhcp server serves on this device:
 # eth_local_mac_address: 00:05:1b:b0:46:51 # usb3 dongle
-# eth_local_mac_address: 80:3f:5d:08:c3:9d # usb2 dongle (yellow tape)
-eth_local_mac_address: 80:3f:5d:08:c2:f6 # usb2 dongle
+eth_local_mac_address: 00:16:d3:c6:68:98 # onboard
+# eth_local_mac_address: 80:3f:5d:08:c2:f6 # usb2 dongle
 eth_local_ip_address: 10.42.0.1
 
 # eth_local_ip_gateway: 192.168.1.1
