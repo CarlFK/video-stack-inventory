@@ -1,0 +1,21 @@
+---
+boxes:
+
+    - hostname: cnt5
+      mac: c8:60:00:6a:13:ae
+      disk: sdb
+
+    - hostname: cnt6
+      mac: c8:60:00:6a:13:bd
+      disk: sdb
+
+    - hostname: dc10b
+      mac: b4:99:ba:e9:5c:5c
+
+    - hostname: gator
+      mac: 80:3f:5d:08:c3:9f
+      disk: nvme0n1
+
+    - hostname: trist
+      mac: 00:16:d3:c6:68:98
+

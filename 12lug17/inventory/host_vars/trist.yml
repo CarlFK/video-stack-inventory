@@ -1,0 +1,12 @@
+---
+eth_uplink_mac_address: b4:99:ba:e9:5c:5c
+
+# dhcp server serves on this device:
+eth_local_mac_address: 00:05:1b:b0:46:51 # usb3 dongle
+eth_local_ip_address: 10.42.0.1
+
+# eth_local_ip_gateway: 192.168.1.1
+
+dhcp_range: 10.42.0.100,10.42.0.200,6h
+domain: private.lan
+
