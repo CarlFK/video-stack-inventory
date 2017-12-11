@@ -5,8 +5,8 @@ user_password_crypted: "$6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0
 autologin: True
 
 publisher: ndv
-org: chilug
-show: dec17
+org: chicagolug
+show: dec_2017
 
 time_zone: US/Central
 
@@ -29,7 +29,7 @@ playbook_branch: nbpy
 inventory_repo: https://github.com/CarlFK/video-stack-inventory.git
 inventory_branch: master
 
-# veyepar_confs: /home/carl/src/veyepar
+veyepar_confs: /home/carl/src/veyepar
 #
 
 blackmagic:
