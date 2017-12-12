@@ -3,12 +3,12 @@ eth_local_mac_address: c8:60:00:6a:13:bd
 
 room_name: ps1
 
-static_ip: 10.42.0.20
+# static_ip: 10.42.0.20
 # domain: private.lan
 
-video_disk: /dev/sda1
+# video_disk: /dev/sda1
 
-# blackmagic_sources:
+blackmagic_sources:
 # JVC 4k
 #- card: 0
 #  connection: SDI
