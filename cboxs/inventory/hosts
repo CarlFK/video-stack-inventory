@@ -1,5 +1,4 @@
 [onsite]
-dc10
 dc10b
 gator
 cnt1
@@ -23,8 +22,10 @@ bb2
 bb3
 
 [rnd]
+dc10b
 nk2
 cnt1
+cnt3
 # cnt6
 
 [tftp-server]

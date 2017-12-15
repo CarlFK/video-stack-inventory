@@ -12,8 +12,8 @@ time_zone: US/Central
 
 # domain: private.lan
 
-distro: Debian
-debian_version: stretch
+# distro: Debian
+# debian_version: stretch
 
 # distro: Ubuntu
 # debian_version: xenial
