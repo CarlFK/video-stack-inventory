@@ -10,7 +10,7 @@ show: dec_2017
 
 time_zone: US/Central
 
-# domain: private.lan
+domain:
 
 # distro: Debian
 # debian_version: stretch
@@ -21,7 +21,7 @@ time_zone: US/Central
 
 # mirror: us.archive.ubuntu.com
 # mirror: deb.debian.org
-# apt_proxy: true
+apt_proxy: true
 
 # apt.enable_oldstable: true
 
@@ -38,9 +38,9 @@ inventory_branch: master
 #
 
 blackmagic:
-  desktopvideo: http://twist:8007/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/desktopvideo_10.9.7a2_amd64.deb
+  desktopvideo: http://pc8/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/desktopvideo_10.9.7a2_amd64.deb
 #  desktopvideo_gui: http://pc8/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/desktopvideo-gui_10.9.7a2_amd64.deb
-  mediaexpress: http://twist:8007/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/mediaexpress_3.5.3a1_amd64.deb
+  mediaexpress: http://pc8/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/mediaexpress_3.5.3a1_amd64.deb
   dkms_version: 10.9.7a2
 
 videodisplay:

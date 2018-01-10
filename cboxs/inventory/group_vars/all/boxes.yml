@@ -17,7 +17,8 @@ boxes:
 
     - hostname: cnt3
       mac: c8:60:00:6a:12:c2
-      disk: sdb
+      disk: disk/by-path/pci-0000:00:1f.2-ata-3
+      # disk: sdb
 
     - hostname: cnt4
       mac: 54:04:a6:c3:33:03
@@ -29,7 +30,8 @@ boxes:
 
     - hostname: cnt6
       mac: c8:60:00:6a:13:bd
-      disk: sdb
+      disk: disk/by-path/pci-0000:00:1f.2-ata-3
+      # disk: sdb
 
     - hostname: cnt7
       mac: c8:60:00:6d:8d:ca
