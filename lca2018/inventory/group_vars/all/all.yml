@@ -8,13 +8,15 @@ publisher: ndv
 org: lca
 show: lca2018
 
-time_zone: US/Central
+time_zone: Australia/Sydney
 
 domain: private.lan
 
 distro: Debian
 debian_version: stretch
 # enable_sid: True
+
+ubuntu_host: au.archive.ubuntu.com
 
 apt_proxy: true
 

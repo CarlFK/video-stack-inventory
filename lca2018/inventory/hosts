@@ -1,11 +1,14 @@
 [onsite]
 edge
+demo3
 
 [tftp-server]
 edge
+demo3
 
 [dhcp-server]
 edge
+demo3
 
 [nfs-server]
 
