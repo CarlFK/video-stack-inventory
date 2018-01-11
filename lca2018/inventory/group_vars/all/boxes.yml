@@ -1,0 +1,5 @@
+---
+boxes:
+    - hostname: edge
+      mac:  f0:de:f1:77:21:73
+
