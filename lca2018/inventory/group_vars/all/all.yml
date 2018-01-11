@@ -16,6 +16,7 @@ distro: Debian
 debian_version: stretch
 # enable_sid: True
 
+debian_host: ftp.au.debian.org
 ubuntu_host: au.archive.ubuntu.com
 
 apt_proxy: true
@@ -29,7 +30,7 @@ playbook_branch: nbpy
 
 # To replace the stock inventory with your own, point at your own github repo
 inventory_repo: https://github.com/CarlFK/video-stack-inventory.git
-inventory_branch: master
+inventory_branch: lca2018
 
 veyepar_confs: /home/carl/src/veyepar
 #
