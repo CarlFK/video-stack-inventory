@@ -1,5 +1,6 @@
 [onsite]
 edge
+demo2
 demo3
 
 [tftp-server]
@@ -23,5 +24,6 @@ edge
 
 [rnd]
 edge
+demo2
 
 [voctotests]
