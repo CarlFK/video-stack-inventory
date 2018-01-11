@@ -2,15 +2,16 @@
 edge
 
 [tftp-server]
+edge
 
 [dhcp-server]
+edge
 
 [nfs-server]
 
 [voctomix]
 
 [opsis]
-edge
 
 [xorg]
 
@@ -19,6 +20,5 @@ edge
 [veyepar-encoder-nfs-storage]
 
 [rnd]
-edge
 
 [voctotests]
