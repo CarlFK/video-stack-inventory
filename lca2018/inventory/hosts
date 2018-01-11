@@ -3,11 +3,9 @@ edge
 demo3
 
 [tftp-server]
-edge
 demo3
 
 [dhcp-server]
-edge
 demo3
 
 [nfs-server]
@@ -15,6 +13,7 @@ demo3
 [voctomix]
 
 [opsis]
+edge
 
 [xorg]
 
@@ -23,5 +22,6 @@ demo3
 [veyepar-encoder-nfs-storage]
 
 [rnd]
+edge
 
 [voctotests]
