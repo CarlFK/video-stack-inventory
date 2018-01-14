@@ -13,10 +13,12 @@ demo3
 [nfs-server]
 
 [voctomix]
+r4mix
 
 [opsis]
 
 [xorg]
+r4mix
 
 [veyepar-basic]
 
@@ -27,4 +29,3 @@ edge
 demo2
 
 [voctotests]
-r4mix
