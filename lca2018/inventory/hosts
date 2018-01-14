@@ -3,6 +3,7 @@ edge
 demo2
 demo3
 r4mix
+string
 
 [tftp-server]
 demo3
@@ -27,5 +28,6 @@ r4mix
 [rnd]
 edge
 demo2
+string
 
 [voctotests]
