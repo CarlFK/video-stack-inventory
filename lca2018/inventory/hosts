@@ -8,11 +8,11 @@ tape
 
 [tftp-server]
 demo3
-tape
+# tape
 
 [dhcp-server]
 demo3
-tape
+# tape
 
 [nfs-server]
 
