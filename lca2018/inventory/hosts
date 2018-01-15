@@ -8,7 +8,6 @@ tape
 
 [dhcp-server]
 demo3
-tape
 
 [nfs-server]
 
@@ -28,5 +27,6 @@ r4mix
 edge
 demo2
 string
+tape
 
 [voctotests]
