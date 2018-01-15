@@ -6,10 +6,6 @@ r4mix
 string
 tape
 
-[tftp-server]
-demo3
-# tape
-
 [dhcp-server]
 demo3
 tape
