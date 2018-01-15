@@ -1,5 +1,5 @@
 eth_uplink_mac_address: 60:67:20:ed:00:e4 # wifi
-eth_uplink_wifi_essid: GoogleGuest
+eth_uplink_wifi_ssid: GoogleGuest
 firmware_packages:
 - firmware-iwlwifi
 
