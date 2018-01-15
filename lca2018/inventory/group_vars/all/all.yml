@@ -4,7 +4,6 @@ user_password_crypted: "$6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0
 
 autologin: True
 
-publisher: ndv
 org: lca
 show: lca2018
 
@@ -14,26 +13,21 @@ domain: private.lan
 
 distro: Debian
 debian_version: stretch
-# enable_sid: True
+enable_sid: false
+enable_oldstable: true
 
 debian_host: ftp.au.debian.org
 ubuntu_host: au.archive.ubuntu.com
 
 apt_proxy: true
 
-# apt.enable_oldstable: true
-
 # Git repos:
-# playbook_repo: https://anonscm.debian.org/cgit/debconf-video/ansible.git
-playbook_repo: https://github.com/CarlFK/video-stack-deploy.git
-playbook_branch: nbpy
+playbook_repo: https://salsa.debian.org/debconf-video-team/ansible
+playbook_branch: master
 
 # To replace the stock inventory with your own, point at your own github repo
 inventory_repo: https://github.com/CarlFK/video-stack-inventory.git
-inventory_branch: lca2018
-
-veyepar_confs: /home/carl/src/veyepar
-#
+inventory_branch: master
 
 blackmagic:
   desktopvideo: http://demo3/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/desktopvideo_10.9.7a2_amd64.deb
@@ -41,20 +35,15 @@ blackmagic:
   mediaexpress: http://demo3/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/mediaexpress_3.5.3a1_amd64.deb
   dkms_version: 10.9.7a2
 
-videodisplay:
-  system: x
-
-# streaming: null
-
 serial_terminal:
-    #- flterm
-- cu
+- tio
 - minicom
 
 sources:
 - Camera
 - Grabber
 
+# Late night, early morning
 rsync_excludes:
 - 0[0-7]*.ts
 - 0[0-7]*.ts.mp4
@@ -62,3 +51,6 @@ rsync_excludes:
 - 2*.ts
 - 2*.ts.mp4
 - 2*.ts.wav.png
+
+# Carl's Branch only:
+publisher: ndv
