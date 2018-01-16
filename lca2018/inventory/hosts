@@ -5,6 +5,7 @@ demo3
 r4mix
 string
 tape
+lethe
 
 [dhcp-server]
 demo3
@@ -28,6 +29,6 @@ edge
 demo2
 string
 tape
-r2mix
+lethe
 
 [voctotests]
