@@ -6,6 +6,7 @@ r4mix
 string
 tape
 lethe
+smell
 
 [dhcp-server]
 demo3
@@ -14,6 +15,7 @@ demo3
 
 [voctomix]
 r4mix
+smell
 
 [opsis]
 
