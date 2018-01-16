@@ -18,6 +18,8 @@ boxes:
   mac: 3c:97:0e:23:8c:4c
 - hostname: r0mix # ASUS 17in
   mac: 14:da:e9:ce:62:b4
+- hostname: r0mix2 # Lenovo TP W530
+  mac: 3c:97:0e:53:ce:07
 - hostname: r1grab # Lenovo T410
   mac: f0:de:f1:49:04:e2
 - hostname: r1grab2 # Lenovo T410
