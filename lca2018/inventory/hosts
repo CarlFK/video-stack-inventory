@@ -9,6 +9,8 @@ lethe
 smell
 
 [dhcp-server]
+# tape
+lethe
 demo3
 
 [nfs-server]
@@ -30,7 +32,6 @@ r4mix
 edge
 demo2
 string
-tape
 # lethe
 
 [voctotests]
