@@ -1,6 +1,20 @@
 ---
 boxes:
-    - hostname: edge
-      mac:  f0:de:f1:77:21:73
-    - hostname: demo2
-      mac:  c8:5b:76:94:03:dd
+- hostname: edge
+  mac: f0:de:f1:77:21:73
+- hostname: demo2
+  mac: c8:5b:76:94:03:dd
+- hostname: r1mix
+  mac: 98:90:96:a7:d8:30
+- hostname: r2mix
+  mac: 3c:97:0e:7f:d8:c0
+- hostname: r3mix
+  mac: 3c:97:0e:9d:af:4f
+- hostname: r4mix
+  mac: 3c:97:0e:9d:af:50
+- hostname: r5mix
+  mac: 3c:97:0e:7f:d9:4c
+- hostname: r6mix
+  mac: 3c:97:0e:23:8c:4c
+- hostname: r0mix
+  mac: 14:da:e9:ce:62:b4
