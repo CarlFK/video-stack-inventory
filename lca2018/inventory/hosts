@@ -34,9 +34,6 @@ r6grab
 r7grab
 r8grab
 
-[xorg]
-r4mix
-
 [veyepar-basic]
 
 [veyepar-encoder-nfs-storage]
