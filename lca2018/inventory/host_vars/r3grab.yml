@@ -2,4 +2,4 @@
 voctomix:
   host: r3mix
   port: 10001
-video_delay: 5000
+video_delay: 10000
