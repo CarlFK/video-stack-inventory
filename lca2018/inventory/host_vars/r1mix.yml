@@ -7,5 +7,5 @@ blackmagic_sources:
 sources:
 - Cam1
 - Cam2
-- Left Grabber
-- Right Grabber
+- GrabberL
+- GrabberR
