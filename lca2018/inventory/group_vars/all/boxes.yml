@@ -30,13 +30,13 @@ staticips:
   - hostname: r6grab # Lenovo T410
     mac: f0:de:f1:49:04:e5
 
-  - hostname: r0mix2 # Lenovo TP W530
+  - hostname: r7mix # Lenovo TP W530
     mac: 3c:97:0e:53:ce:07
   - hostname: r7grab # Lenovo T61
     mac: 00:1e:37:90:17:77
-  - hostname: r0mix # ASUS 17in
+  - hostname: r8mix # ASUS 17in
     mac: 14:da:e9:ce:62:b4
-  - hostname: r0grab # Lenovo T410 SPARE
+  - hostname: r8grab # Lenovo T410 SPARE
     mac: f0:de:f1:49:72:60
 
   - hostname: edge
