@@ -1,12 +1,28 @@
 [onsite]
-edge
+r0mix
+r0grab
+r1mix
+r1grab
+r1grab2
+r1grab3
+r2mix
+r2grab
+r3mix
+r3grab
+r4mix
+r4grab
+r5mix
+r5grab
+r6mix
+r6grab
+
 demo2
 demo3
-r4mix
-string
-tape
+edge
 lethe
 smell
+string
+tape
 
 [dhcp-server]
 edge
@@ -14,10 +30,26 @@ edge
 [nfs-server]
 
 [voctomix]
+r0mix
+r1mix
+r2mix
+r3mix
 r4mix
+r5mix
+r6mix
+
 smell
 
 [opsis]
+r0grab
+r1grab
+r1grab2
+r1grab3
+r2grab
+r3grab
+r4grab
+r5grab
+r6grab
 
 [xorg]
 r4mix

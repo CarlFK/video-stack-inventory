@@ -1,0 +1,11 @@
+---
+blackmagic_sources:
+- card: 0
+  connection: SDI
+  audio: true
+  mode: 17
+sources:
+- Cam1
+- Cam2
+- Left Grabber
+- Right Grabber
