@@ -1,6 +1,4 @@
 [onsite]
-r0mix
-r0grab
 r1mix
 r1grab
 r1grab2
@@ -15,6 +13,10 @@ r5mix
 r5grab
 r6mix
 r6grab
+r7mix
+r7grab
+r8mix
+r8grab
 
 demo2
 demo3
@@ -30,13 +32,14 @@ edge
 [nfs-server]
 
 [voctomix]
-r0mix
 r1mix
 r2mix
 r3mix
 r4mix
 r5mix
 r6mix
+r7mix
+r8mix
 
 smell
 
@@ -50,6 +53,8 @@ r3grab
 r4grab
 r5grab
 r6grab
+r7grab
+r8grab
 
 [xorg]
 r4mix
