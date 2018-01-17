@@ -2,3 +2,6 @@
 room_name: guthrie
 irc_room_channel: "#lca2018-guthrie"
 irc_nick: lcaav_guthrie
+
+alsa_device: hw:1,0
+audio_delay: 0
