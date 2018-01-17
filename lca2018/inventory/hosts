@@ -4,6 +4,7 @@ encoder
 nfs-server
 opsis
 voctomix
+xorg
 
 [dhcp-server]
 edge
@@ -46,3 +47,6 @@ r8grab
 [veyepar-encoder-nfs-storage]
 
 [voctotests]
+
+[xorg]
+twinpact
