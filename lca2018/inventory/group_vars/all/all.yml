@@ -11,6 +11,13 @@ conference_country: Australia
 org: lca
 show: lca2018
 
+irc:
+  network: freenode
+  server: chat.freenode.net
+  ssl_port: 6697
+  global_channels:
+  - "#lca-av"
+
 time_zone: Australia/Sydney
 
 domain: private.lan

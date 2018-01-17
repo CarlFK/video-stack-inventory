@@ -9,3 +9,7 @@ sources:
 - Cam2
 - GrabberL
 - GrabberR
+
+room_name: greathall
+irc_room_channel: "#lca2018-greathall"
+irc_nick: lcaav_greathall
