@@ -9,9 +9,7 @@ lethe
 smell
 
 [dhcp-server]
-# tape
-lethe
-demo3
+edge
 
 [nfs-server]
 
