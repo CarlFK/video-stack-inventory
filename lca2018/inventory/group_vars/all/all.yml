@@ -22,6 +22,8 @@ enable_oldstable: true
 
 debian_host: ftp.au.debian.org
 ubuntu_host: au.archive.ubuntu.com
+debian_suites: [stretch]
+ubuntu_sites: [xenial, zesty, artful]
 
 apt_proxy: true
 
