@@ -61,9 +61,12 @@ staticips:
     mac: c8:5b:76:94:03:dd
   - hostname: edge
     mac: f0:de:f1:77:21:73
-  - hostname: guppy
+  - hostname: minnow1
     disk: /dev/mmcblk2
     mac: 00:08:a2:0b:ba:c8
+  - hostname: minnow2
+    disk: /dev/mmcblk2
+    mac: 00:08:a2:0b:ba:b0
   - hostname: twinpact
     mac: 00:1e:37:90:15:7f
   - hostname: nuc
