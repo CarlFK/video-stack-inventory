@@ -21,6 +21,7 @@ irc:
 time_zone: Australia/Sydney
 
 domain: private.lan
+nfs_server: edge
 
 distro: Debian
 debian_version: stretch

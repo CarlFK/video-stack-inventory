@@ -10,6 +10,7 @@ xorg
 edge
 
 [nfs-server]
+edge
 
 [voctomix]
 r1mix
