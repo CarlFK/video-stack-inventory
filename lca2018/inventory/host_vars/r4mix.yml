@@ -2,3 +2,6 @@
 room_name: medium
 irc_room_channel: "#lca2018-medium"
 irc_nick: lcaav_medium
+
+alsa_device: hw:1,0
+audio_delay: 0

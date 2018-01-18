@@ -2,3 +2,6 @@
 room_name: green
 irc_room_channel: "#lca2018-green"
 irc_nick: lcaav_green
+
+alsa_device: hw:1,0
+audio_delay: 0
