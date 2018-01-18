@@ -2,3 +2,5 @@
 room_name: room7
 irc_room_channel: "#lca2018-room7"
 irc_nick: lcaav_room7
+
+video_disk: /dev/sdb

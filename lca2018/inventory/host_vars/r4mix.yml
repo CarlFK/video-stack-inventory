@@ -5,3 +5,5 @@ irc_nick: lcaav_medium
 
 alsa_device: hw:1,0
 audio_delay: 0
+
+video_disk: /dev/sdb
