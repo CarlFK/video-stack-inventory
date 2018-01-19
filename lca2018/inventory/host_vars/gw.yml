@@ -1,0 +1,5 @@
+eth_uplink_mac_address: 00:05:1b:b0:47:9d  # CarlFK dongle
+
+eth_local_mac_address: 60:a4:4c:b0:89:49
+eth_local_ip_address: 10.20.0.1
+dhcp_range: 10.20.0.128,10.20.0.254,6h
