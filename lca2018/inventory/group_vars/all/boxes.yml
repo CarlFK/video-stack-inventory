@@ -47,6 +47,8 @@ staticips:
   - hostname: r7mix # Lenovo TP W530
     mac: 3c:97:0e:53:ce:07
     ip: 10.20.0.70
+    tasks:
+    - ubuntu-desktop
   - hostname: r7grab # Lenovo T61
     mac: 00:1e:37:90:17:77
     ip: 10.20.0.71
@@ -69,6 +71,8 @@ staticips:
     mac: 00:08:a2:0b:ba:b0
   - hostname: twinpact
     mac: 00:1e:37:90:15:7f
+    tasks:
+    - ubuntu-desktop
   - hostname: nuc
     mac: f4:4d:30:65:d7:b1
 
