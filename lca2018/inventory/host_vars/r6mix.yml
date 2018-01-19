@@ -6,3 +6,6 @@ irc_nick: lcaav_largepod
 audio_delay: 1000
 
 video_disk: /dev/sdb
+
+alsa_device: hw:1,0
+audio_delay: 0
