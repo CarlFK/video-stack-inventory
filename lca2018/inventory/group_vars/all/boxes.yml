@@ -3,7 +3,7 @@ staticips:
   hosts:
   - hostname: gw
     mac: 00:05:1b:b0:47:9d
-
+  
   - hostname: r1mix # Dell 9020 DESKTOP
     mac: 98:90:96:a7:d8:30
     ip: 10.20.0.10
@@ -23,7 +23,7 @@ staticips:
     mac: f0:de:f1:49:04:a8
     ip: 10.20.0.21
   - hostname: r3mix # Lenovo TP W530
-    mac: 3c:97:0e:9d:af:4f
+    mac: 3c:97:0e:53:ce:07
     ip: 10.20.0.30
   - hostname: r3grab # Lenovo T410
     mac: f0:de:f1:3e:8d:ae
@@ -47,11 +47,9 @@ staticips:
     mac: f0:de:f1:49:04:e5
     ip: 10.20.0.61
 
-  - hostname: r7mix # Lenovo TP W530
-    mac: 3c:97:0e:53:ce:07
+  - hostname: r7mix # Lenovo TP W530 ##BROKEN##
+    mac: 3c:97:0e:9d:af:4f
     ip: 10.20.0.70
-    tasks:
-    - ubuntu-desktop
   - hostname: r7grab # Lenovo T61
     mac: 00:1e:37:90:17:77
     ip: 10.20.0.71
