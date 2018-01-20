@@ -47,13 +47,13 @@ staticips:
     mac: f0:de:f1:49:04:e5
     ip: 10.20.0.61
 
-  - hostname: r7mix # ASUS 17in
+  - hostname: r7mix # Lenovo TP W530 ##BROKEN##
     mac: 3c:97:0e:9d:af:4f
     ip: 10.20.0.70
   - hostname: r7grab # Lenovo T61
     mac: 00:1e:37:90:17:77
     ip: 10.20.0.71
-  - hostname: r8mix # Lenovo TP W530 ##BROKEN##
+  - hostname: r8mix # ASUS 17in
     mac: 14:da:e9:ce:62:b4
     ip: 10.20.0.80
   - hostname: r8grab # Lenovo T410 SPARE
