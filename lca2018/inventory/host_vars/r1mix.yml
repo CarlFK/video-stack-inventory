@@ -10,9 +10,13 @@ blackmagic_sources:
   connection: SDI
   audio: true
   mode: 17
+- card: 1
+  connection: SDI
+  audio: true
+  mode: 11
 sources:
-- Cam1
-- Cam2
+- Cam
+- VenuCams
 - GrabberL
 - GrabberR
 
