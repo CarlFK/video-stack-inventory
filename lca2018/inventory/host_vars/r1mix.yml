@@ -11,9 +11,9 @@ blackmagic_sources:
   audio: true
   mode: 17
 - card: 1
-  connection: SDI
-  audio: true
-  mode: 11
+  connection: HDMI
+  audio: false
+  mode: 17
 sources:
 - Cam
 - VenuCams
