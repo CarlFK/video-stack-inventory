@@ -61,12 +61,8 @@ voctomix:
 
 # Late night, early morning
 rsync_excludes:
-- 0[0-7]*.ts
-- 0[0-7]*.ts.mp4
-- 0[0-7]*.ts.wav.png
-- 2*.ts
-- 2*.ts.mp4
-- 2*.ts.wav.png
+- "0[0-7]_*.ts"
+- "2[0-3]_*.ts"
 
 # Carl's Branch only:
 publisher: ndv
