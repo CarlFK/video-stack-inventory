@@ -5,6 +5,7 @@ gw
 [nfs-server]
 edge
 gw
+storage
 
 [voctomix]
 r1mix
