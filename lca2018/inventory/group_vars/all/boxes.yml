@@ -13,9 +13,6 @@ staticips:
   - hostname: r1grab2 # Lenovo T410
     mac: f0:de:f1:49:04:ce
     ip: 10.20.0.12
-  - hostname: r1grab3 # Lenovo T61
-    mac: 00:21:86:9a:86:d3
-    ip: 10.20.0.13
   - hostname: r2mix # Lenovo TP W530
     mac: 3c:97:0e:7f:d8:c0
     ip: 10.20.0.20
@@ -70,6 +67,8 @@ staticips:
     mac: 00:1e:37:90:53:d2
   - hostname: spare5
     mac: 00:1e:37:84:1d:09
+  - hostname: spare6
+    mac: 00:21:86:9a:86:d3
   - hostname: demo2
     mac: c8:5b:76:94:03:dd
   - hostname: edge
