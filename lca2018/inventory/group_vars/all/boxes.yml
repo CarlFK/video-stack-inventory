@@ -64,8 +64,6 @@ staticips:
     mac: 00:1e:37:90:18:12
   - hostname: spare2
     mac: 00:1e:37:90:18:14
-    tasks:
-    - ubuntu-desktop
   - hostname: spare3
     mac: 00:1e:37:8e:11:a3
   - hostname: spare4
