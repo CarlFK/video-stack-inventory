@@ -51,6 +51,14 @@ sources:
 - Camera
 - Grabber
 
+voctomix:
+  display_system: gl
+  framerate: 25
+  loop_url: http://gw/lca2018.ts
+  # Opsis
+  host: localhost
+  port: 10000
+
 # Late night, early morning
 rsync_excludes:
 - 0[0-7]*.ts
