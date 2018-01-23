@@ -8,7 +8,6 @@ audio_delay: 1000
 video_disk: /dev/sdb
 
 alsa_device: hw:1,0
-audio_delay: 0
 
 streaming:
   method: rtmp
