@@ -20,6 +20,11 @@ sources:
 - GrabberL
 - GrabberR
 
+voctomix:
+  display_system: xv
+  framerate: 25
+  loop_url: http://gw/lca2018.ts
+
 room_name: greathall
 irc_room_channel: "#lca2018-greathall"
 irc_nick: lcaav_greathall
