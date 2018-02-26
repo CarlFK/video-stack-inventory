@@ -1,8 +1,0 @@
-eth_uplink_mac_address: ac:81:12:3a:16:b0  # wifi
-eth_uplink_wifi_ssid: GoogleGuest
-
-eth_local_mac_address: f0:de:f1:77:21:73  # wired
-eth_local_ip_address: 10.20.0.1
-dhcp_range: 10.20.0.128,10.20.0.254,6h
-firmware_packages:
-- firmware-brcm80211
