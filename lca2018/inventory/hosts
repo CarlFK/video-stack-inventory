@@ -41,6 +41,7 @@ minnow2
 
 [veyepar-basic]
 storage
+edge
 
 [veyepar-encoder-nfs-storage]
 
@@ -58,7 +59,7 @@ spare6
 
 [onsite]
 spare2
-edge
+# edge
 
 [onsite:children]
 dhcp-server
