@@ -13,6 +13,9 @@ time_zone: US/Central
 domain: private.lan
 debian_version: stretch
 
+staticips.write_hosts: False
+staticips.write_interfaces: False
+
 apt_proxy: true
 
 # apt.enable_oldstable: true
