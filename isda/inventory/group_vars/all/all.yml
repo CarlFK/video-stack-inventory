@@ -11,6 +11,7 @@ show: day1
 time_zone: US/Central
 
 domain: private.lan
+debian_version: stretch
 
 apt_proxy: true
 
@@ -22,6 +23,7 @@ playbook_repo: https://salsa.debian.org/debconf-video-team/ansible
 playbook_branch: master
 
 # To replace the stock inventory with your own, point at your own github repo
+
 inventory_repo: https://github.com/CarlFK/video-stack-inventory.git
 inventory_branch: master
 
