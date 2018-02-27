@@ -28,7 +28,7 @@ inventory_repo: https://github.com/CarlFK/video-stack-inventory.git
 inventory_branch: master
 
 veyepar_confs: /home/carl/src/veyepar
-#
+veyepar_url: http://veyepar.nextdayvideo.com
 
 blackmagic:
   desktopvideo: http://pc8/bm/Blackmagic_Desktop_Video_Linux_10.9.11/deb/x86_64/desktopvideo_10.9.11a2_amd64.deb
