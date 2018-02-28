@@ -5,8 +5,8 @@ user_password_crypted: "$6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0
 autologin: True
 
 publisher: ndv
-org: isda
-show: day1
+org: koya_law
+show: training
 
 time_zone: US/Central
 
