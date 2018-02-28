@@ -1,0 +1,14 @@
+---
+staticips:
+  write_hosts: true
+  gateway: 192.168.1.1
+  hosts:
+
+  - hostname: cnt6
+    ip: 192.168.1.10
+    mac: c8:60:00:6a:13:bd
+
+  - hostname: odroid2
+    ip: 192.168.1.11
+    mac: 00:1e:06:33:59:9a
+
