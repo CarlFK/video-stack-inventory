@@ -6,8 +6,7 @@ room_name: room_1
 static_ip: 10.42.0.20
 # domain: private.lan
 
-video_disk: /dev/sda1
-# video_disk: /dev/sdb
+video_disk: /dev/disk/by-path/pci-0000:00:1f.2-ata-1-part1
 
 blackmagic_sources:
 # JVC 4k
