@@ -1,7 +1,7 @@
 ---
 eth_local_mac_address: c8:60:00:6a:13:bd
 
-room_name: room_1
+room_name: htc1
 
 static_ip: 10.42.0.20
 # domain: private.lan
@@ -15,12 +15,12 @@ blackmagic_sources:
   mode: 17 # (17): HD720 50p        - 720p50
   audio: true
 # Mini JVC, audio from usb audio dongle
-- card: 1
-  connection: HDMI
-  audio: true
-  mode: 18
+# - card: 1
+#  connection: HDMI
+#  audio: true
+#  mode: 18
 
 sources:
 - JVC4k
-- Everio
+# - Everio
 - Opsis
