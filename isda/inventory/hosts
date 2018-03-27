@@ -17,7 +17,7 @@ cnt6
 cnt3
 
 [conky]
-cnt6
+# cnt6
 
 [sugar]
 cnt6

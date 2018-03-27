@@ -21,13 +21,6 @@ bb1
 bb2
 bb3
 
-[rnd]
-dc10b
-nk2
-cnt1
-cnt3
-# cnt6
-
 [tftp-server]
 bb4
 # cnt6
@@ -41,7 +34,7 @@ pc8
 [nfs-server]
 
 [voctomix]
-# cnt4
+cnt1
 cnt5
 cnt6
 cnt7
@@ -72,3 +65,6 @@ trist
 
 [voctotests]
 voctotest
+
+[sugar]
+cnt1
