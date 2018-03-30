@@ -57,7 +57,7 @@ val2
 [rnd]
 nk2
 gator
-cnt1
+# cnt1
 cnt2
 # cnt3
 trist.local
@@ -68,3 +68,8 @@ voctotest
 
 [sugar]
 cnt1
+cnt6
+
+[conky]
+cnt1
+cnt6
