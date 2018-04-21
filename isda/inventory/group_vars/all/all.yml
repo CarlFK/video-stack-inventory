@@ -5,20 +5,18 @@ user_password_crypted: "$6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0
 autologin: True
 
 publisher: ndv
-org: emw
-show: emwcon2018
+org: koya
+show: training1
 
 time_zone: US/Central
 
 domain: private.lan
-debian_version: stretch
+# debian_version: stretch
 
 staticips.write_hosts: False
 staticips.write_interfaces: False
 
 apt_proxy: true
-
-# apt.enable_oldstable: true
 
 # Git repos:
 # playbook_repo: https://anonscm.debian.org/cgit/debconf-video/ansible.git
