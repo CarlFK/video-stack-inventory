@@ -1,0 +1,5 @@
+---
+static_ip: 192.168.1.11
+voctomix:
+  host: 192.168.1.10
+  port: 10001

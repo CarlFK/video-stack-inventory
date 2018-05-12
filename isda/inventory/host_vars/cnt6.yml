@@ -15,14 +15,15 @@ blackmagic_sources:
   mode: 17 # (17): HD720 50p        - 720p50
   audio: true
 # Mini JVC, audio from usb audio dongle
-# - card: 1
-#  connection: HDMI
-#  audio: true
+- card: 1
+  connection: HDMI
+  audio: true
+  mode: 17
 #  mode: 18
 
 sources:
 - JVC4k
-# - Everio
+- Everio
 - Opsis
 
 streaming:
