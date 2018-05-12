@@ -1,0 +1,48 @@
+---
+# eth_local_mac_address: c8:60:00:6a:13:bd
+
+room_name: 514
+# room_name: 511
+
+static_ip: 10.42.0.20
+# domain: private.lan
+
+video_disk: /dev/disk/by-path/pci-0000:00:1f.2-ata-1-part1
+
+#                           (17): HD720 50p        - 720p50
+#                           (18): HD720 59.94p     - 720p5994
+#                           (19): HD720 60p        - 720p60
+
+blackmagic_sources:
+# JVC 4k (mode 17)
+# Panasonic AVCHD, HDMI = mode 18
+- card: 0
+  connection: SDI
+  mode: 17 # (17): HD720 50p        - 720p50
+  audio: true
+# Mini JVC, audio from usb audio dongle
+# - card: 1
+#   connection: HDMI
+#   audio: true
+#   mode: 17
+#  mode: 18
+
+sources:
+- JVC4k
+# - Everio
+- Opsis
+
+# streaming:
+#  method: rtmp
+#  hq_config:
+#    video_bitrate: 2000 # kbps
+#    audio_bitrate: 128000 # bps
+#    keyframe_period: 60 # seconds
+#  rtmp:
+#    location: 'rtmp://a.rtmp.youtube.com/live2/x/vt68-2eth-89ts-1tv6 app=live2'
+#    # location: 'rtmp://a.rtmp.youtube.com/live2/vt68-2eth-89ts-1tv6 app=live2'
+#    vaapi: True
+
+
+
+
