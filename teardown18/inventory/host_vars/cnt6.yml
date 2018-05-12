@@ -31,16 +31,16 @@ sources:
 # - Everio
 - Opsis
 
-# streaming:
-#  method: rtmp
-#  hq_config:
-#    video_bitrate: 2000 # kbps
-#    audio_bitrate: 128000 # bps
-#    keyframe_period: 60 # seconds
-#  rtmp:
-#    location: 'rtmp://a.rtmp.youtube.com/live2/x/vt68-2eth-89ts-1tv6 app=live2'
-#    # location: 'rtmp://a.rtmp.youtube.com/live2/vt68-2eth-89ts-1tv6 app=live2'
-#    vaapi: True
+streaming:
+  method: rtmp
+  hq_config:
+    video_bitrate: 2000 # kbps
+    audio_bitrate: 128000 # bps
+    keyframe_period: 60 # seconds
+  rtmp:
+      # Room 511 - b1fu-g5bv-s9gg-bf0z
+    location: 'rtmp://a.rtmp.youtube.com/live2/x/b1fu-g5bv-s9gg-bf0z app=live2'
+    vaapi: True
 
 
 
