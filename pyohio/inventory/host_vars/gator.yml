@@ -1,10 +1,12 @@
 ---
-room_name: spare
+room_name: cartoon1
 
+# Panasonic AVCHD, HDMI
 blackmagic_sources:
 - card: 0
-  connection: SDI
+  connection: HDMI
   audio: true
+  mode: 18
 
 sources:
 - Camera

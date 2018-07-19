@@ -1,8 +1,8 @@
 ---
 room_name: cartoon2
 
-blackmagic_sources:
 # Panasonic AVCHD, HDMI
+blackmagic_sources:
 - card: 0
   connection: HDMI
   audio: true
