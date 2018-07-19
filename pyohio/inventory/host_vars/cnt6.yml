@@ -1,7 +1,7 @@
 ---
 room_name: cartoon2
 
-video_disk: /dev/sdb
+video_disk: /dev/sda
 
 # Panasonic AVCHD, HDMI
 blackmagic_sources:

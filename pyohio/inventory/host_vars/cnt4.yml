@@ -1,7 +1,7 @@
 ---
 room_name: suzanne_scharer
 
-video_disk: /dev/sdb
+video_disk: /dev/sdc
 
 # Panasonic AVCHD, HDMI
 blackmagic_sources:
