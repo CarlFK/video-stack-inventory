@@ -6,24 +6,33 @@ staticips:
   hosts:
   - hostname: dc10b
     ip: 10.0.0.1
-  - hostname: cnt4
-    ip: 10.0.0.40
-  - hostname: odroid4
-    ip: 10.0.0.41
   - hostname: trist
-    ip: 10.0.0.42
-  - hostname: cnt5
-    ip: 10.0.0.50
-  - hostname: odroid5
-    ip: 10.0.0.51
-  - hostname: cnt6
-    ip: 10.0.0.60
-  - hostname: odroid6
-    ip: 10.0.0.61
-  - hostname: cnt7
-    ip: 10.0.0.70
-  - hostname: odroid7
-    ip: 10.0.0.71
+    ip: 10.0.0.2
+
   - hostname: gator
-    ip: 10.0.0.80
+    ip: 10.0.0.10
+  - hostname: odroid1
+    ip: 10.0.0.11
+
+  - hostname: cnt6
+    ip: 10.0.0.20
+  - hostname: odroid2
+    ip: 10.0.0.21
+
+  - hostname: cnt4
+    ip: 10.0.0.30
+  - hostname: odroid8
+    ip: 10.0.0.31
+
+  - hostname: cnt5
+    ip: 10.0.0.40
+  - hostname: odroid3
+    ip: 10.0.0.41
+
+  - hostname: cnt7
+    ip: 10.0.0.50
+  - hostname: odroid9
+    ip: 10.0.0.51
+
+
   gateway: 10.0.0.1
