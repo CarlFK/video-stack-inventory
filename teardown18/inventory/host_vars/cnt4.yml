@@ -29,7 +29,8 @@ blackmagic_sources:
 #  mode: 18
 
 sources:
-- JVC4k
+- Panasonic
+# - JVC4k
 # - Everio
 - Opsis
 
