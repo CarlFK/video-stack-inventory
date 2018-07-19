@@ -1,6 +1,8 @@
 ---
 room_name: suzanne_scharer
 
+video_disk: /dev/sdb
+
 # Panasonic AVCHD, HDMI
 blackmagic_sources:
 - card: 0
