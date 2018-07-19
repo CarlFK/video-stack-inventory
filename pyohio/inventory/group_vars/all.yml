@@ -25,6 +25,10 @@ apt_proxy: true
 
 apt.enable_oldstable: true
 
+staticips.write_hosts: False
+staticips.write_interfaces: True
+
+
 # Git repos:
 # playbook_repo: https://anonscm.debian.org/cgit/debconf-video/ansible.git
 # playbook_repo: https://github.com/CarlFK/video-stack-deploy.git
