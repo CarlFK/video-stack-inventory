@@ -4,13 +4,15 @@ cnt4
 cnt5
 cnt6
 cnt7
+cnt3
+
 odroid1
 odroid2
 odroid3
 odroid8
 odroid9
-trist
-cnt3
+
+bb4
 
 [dhcp-server]
 
@@ -30,6 +32,7 @@ odroid3
 odroid8
 odroid9
 trist
+bb4
 
 [veyepar-basic]
 

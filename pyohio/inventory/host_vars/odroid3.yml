@@ -1,4 +1,7 @@
 ---
 voctomix:
-  host: 10.0.0.40
+  host: cnt5
+  # host: 10.0.0.40
   port: 10001
+
+distro: Ubuntu

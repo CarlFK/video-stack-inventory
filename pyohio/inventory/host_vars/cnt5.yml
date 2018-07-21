@@ -9,6 +9,6 @@ blackmagic_sources:
   mode: 18
 
 sources:
-- Audio Camera
-- Grabber
 - Camera
+- Grabber
+  # - Audio_Camera

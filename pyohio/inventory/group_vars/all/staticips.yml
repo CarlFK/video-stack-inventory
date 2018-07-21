@@ -1,8 +1,8 @@
 ---
 
 staticips:
-  write_hosts: False
-  write_interfaces: False
+  write_hosts: True
+  write_interfaces: True
   hosts:
   - hostname: dc10b
     ip: 10.0.0.1
