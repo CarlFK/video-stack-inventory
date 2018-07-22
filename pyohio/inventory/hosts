@@ -4,6 +4,7 @@ cnt4
 cnt5
 cnt6
 cnt7
+
 cnt3
 
 odroid1
@@ -13,6 +14,7 @@ odroid8
 odroid9
 
 bb4
+trist
 
 [dhcp-server]
 
@@ -24,6 +26,8 @@ cnt4
 cnt5
 cnt6
 cnt7
+
+cnt3
 
 [opsis]
 odroid1
