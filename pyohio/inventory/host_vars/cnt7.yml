@@ -6,7 +6,7 @@ blackmagic_sources:
 - card: 0
   connection: SDI
   audio: true
-  mode: 17
+  mode: 18
 
 # Mini JVC, audio is coming from a DVX-100
 # - card: 0
