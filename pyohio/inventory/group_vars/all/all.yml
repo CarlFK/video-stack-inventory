@@ -48,9 +48,9 @@ public_keys_root:
 
 serial_terminal:
 - tio
-- flterm
-- cu
-- minicom
+  # - flterm
+  # - cu
+  # - minicom
 
 sources:
 - Camera
