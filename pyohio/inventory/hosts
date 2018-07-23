@@ -13,7 +13,6 @@ odroid3
 odroid8
 odroid9
 
-bb4
 trist
 
 [dhcp-server]
@@ -36,9 +35,13 @@ odroid3
 odroid8
 odroid9
 trist
-bb4
 
 [veyepar-basic]
 
 [veyepar-encoder-nfs-storage]
+
+[nothing]
+bb4
+dc10b
+
 
