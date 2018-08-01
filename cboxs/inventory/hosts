@@ -49,7 +49,12 @@ cnt6
 [veyepar-basic]
 val1
 val2
-# cnt3
+cnt1
+cnt2
+
+[veyepar-secrets]
+cnt1
+cnt2
 
 [veyepar-encoder-nfs-storage]
 
@@ -68,8 +73,10 @@ voctotest
 
 [sugar]
 cnt1
+cnt2
 cnt6
 
 [conky]
 cnt1
+cnt2
 cnt6
