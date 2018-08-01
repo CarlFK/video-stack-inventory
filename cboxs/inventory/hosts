@@ -47,14 +47,15 @@ cnt7
 cnt6
 
 [veyepar-basic]
-val1
-val2
 cnt1
 cnt2
+val1
+val2
 
 [veyepar-secrets]
 cnt1
 cnt2
+val1
 
 [veyepar-encoder-nfs-storage]
 
@@ -63,7 +64,7 @@ cnt2
 nk2
 gator
 # cnt1
-cnt2
+# cnt2
 # cnt3
 trist.local
 trist
@@ -75,8 +76,9 @@ voctotest
 cnt1
 cnt2
 cnt6
+val1
 
 [conky]
 cnt1
-cnt2
+# cnt2
 cnt6
