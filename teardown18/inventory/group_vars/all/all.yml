@@ -27,7 +27,6 @@ playbook_branch: master
 inventory_repo: https://github.com/CarlFK/video-stack-inventory.git
 inventory_branch: master
 
-# veyepar_confs: /home/carl/src/veyepar
 veyepar_url: http://veyepar.nextdayvideo.com
 
 blackmagic:
