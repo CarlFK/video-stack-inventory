@@ -20,14 +20,13 @@ nk2
 bb1
 bb2
 bb3
+bb4
 
 [tftp-server]
-bb4
 # cnt6
 pc8
 
 [dhcp-server]
-bb4
 # cnt6
 pc8
 
@@ -77,8 +76,10 @@ cnt1
 cnt2
 cnt6
 val1
+bb4
 
 [conky]
 cnt1
 # cnt2
 cnt6
+bb4
