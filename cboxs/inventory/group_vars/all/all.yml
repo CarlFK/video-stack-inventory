@@ -16,8 +16,11 @@ apt_proxy: true
 
 # apt.enable_oldstable: true
 
-staticips.write_interfaces: False
-staticips.hosts: False
+staticips:
+  write_hosts: false
+  write_interfaces: false
+  hosts: []
+
 
 # Git repos:
 # playbook_repo: https://anonscm.debian.org/cgit/debconf-video/ansible.git
