@@ -10,6 +10,8 @@ show: pyohio_2018
 
 time_zone: US/Central
 
+frequency: 60
+
 domain:
 
 apt_proxy: true
