@@ -21,6 +21,7 @@ bb1
 bb2
 bb3
 bb4
+u2-laptop
 
 [tftp-server]
 # cnt6
@@ -35,15 +36,16 @@ pc8
 [voctomix]
 cnt1
 cnt5
-cnt6
+# cnt6
 cnt7
 
 [opsis]
 # cnt6
 # cnt3
+u2-laptop
 
 [xorg]
-cnt6
+# cnt6
 
 [veyepar-basic]
 cnt1
@@ -64,7 +66,7 @@ nk2
 gator
 # cnt1
 # cnt2
-# cnt6
+cnt6
 trist.local
 trist
 
@@ -77,9 +79,11 @@ cnt2
 cnt6
 val1
 bb4
+u2-laptop
 
 [conky]
 cnt1
 # cnt2
 cnt6
 bb4
+u2-laptop
