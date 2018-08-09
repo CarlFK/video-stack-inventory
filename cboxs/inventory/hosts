@@ -21,7 +21,7 @@ bb1
 bb2
 bb3
 bb4
-u2-laptop
+u2
 
 [tftp-server]
 # cnt6
@@ -42,10 +42,11 @@ cnt7
 [opsis]
 # cnt6
 # cnt3
-u2-laptop
+u2
 
 [xorg]
 # cnt6
+u2
 
 [veyepar-basic]
 cnt1
@@ -79,11 +80,11 @@ cnt2
 cnt6
 val1
 bb4
-u2-laptop
+u2
 
 [conky]
 cnt1
 # cnt2
 cnt6
 bb4
-u2-laptop
+u2
