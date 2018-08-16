@@ -25,11 +25,13 @@ u2
 
 [tftp-server]
 # cnt6
-pc8
+# pc8
+negk
 
 [dhcp-server]
 # cnt6
-pc8
+# pc8
+negk
 
 [nfs-server]
 
