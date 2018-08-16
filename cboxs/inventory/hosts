@@ -49,14 +49,14 @@ cnt7
 # u2
 
 [veyepar-basic]
-cnt1
-cnt2
+cnt6
+# cnt2
 val1
 val2
 
 [veyepar-secrets]
 cnt1
-cnt2
+# cnt2
 val1
 
 [veyepar-encoder-nfs-storage]
@@ -85,7 +85,7 @@ u2
 
 [conky]
 cnt1
-# cnt2
+cnt2
 cnt6
 bb4
 dc10b
