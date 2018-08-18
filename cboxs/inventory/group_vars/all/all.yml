@@ -64,6 +64,6 @@ rsync_excludes:
 - 2*.ts.wav.png
 
 # what the pxe server can install
-ubuntu_suites: [trusty, xenial, zesty, artful, bionic]
+ubuntu_suites: [trusty, xenial, artful, bionic]
 
 veyepar_url: http://veyepar.nextdayvideo.com

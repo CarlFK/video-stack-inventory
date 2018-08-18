@@ -23,12 +23,7 @@ bb3
 bb4
 u2
 
-[tftp-server]
-# cnt6
-# pc8
-negk
-
-[dhcp-server]
+[tftp-dhcp-server]
 # cnt6
 # pc8
 negk
@@ -39,7 +34,7 @@ negk
 cnt1
 cnt5
 # cnt6
-cnt7
+# cnt7
 
 [opsis]
 # cnt6
