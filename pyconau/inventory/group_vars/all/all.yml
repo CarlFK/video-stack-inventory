@@ -1,0 +1,69 @@
+---
+user_name: juser
+user_password_crypted: "$6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0XIl86m5.IbqSOPXJ0mxVUE7y5kGFE/arHgExAxoz0kEULiplZ."
+
+autologin: True
+
+publisher: ndv
+org: pyconau
+show: pyconau_2018
+
+# time_zone: US/Central
+
+frequency: 50
+
+domain:
+
+# apt_proxy: true
+
+# apt.enable_oldstable: true
+
+staticips:
+  write_hosts: false
+  write_interfaces: false
+  hosts: []
+
+
+# Git repos:
+playbook_repo: https://anonscm.debian.org/cgit/debconf-video/ansible.git
+# playbook_repo: https://github.com/CarlFK/video-stack-deploy.git
+playbook_branch: master
+
+# To replace the stock inventory with your own, point at your own github repo
+inventory_repo: https://github.com/CarlFK/video-stack-inventory.git
+inventory_branch: master
+
+blackmagic:
+    urls:
+    - desktopvideo: http://twist:8007/bm/Blackmagic_Desktop_Video_Linux_10.11.1/deb/x86_64/desktopvideo_10.11.1a4_amd64.deb
+    # - desktopvideo_gui: http://pc8/bm/Blackmagic_Desktop_Video_Linux_10.11.1/deb/amd64/desktopvideo-gui_10.11.1a4_amd64.deb
+    - mediaexpress: http://twist:8007/bm/Blackmagic_Desktop_Video_Linux_10.11.1/deb/amd64/mediaexpress_3.5.6a2_amd64.deb
+    dkms_version: 10.11.1a4
+
+voctomix:
+  display_system: x
+  framerate: 25
+
+# streaming: null
+
+serial_terminal:
+#- flterm
+- cu
+# - minicom
+
+sources:
+- Camera
+- Grabber
+
+rsync_excludes:
+- 0[0-7]*.ts
+- 0[0-7]*.ts.mp4
+- 0[0-7]*.ts.wav.png
+- 2*.ts
+- 2*.ts.mp4
+- 2*.ts.wav.png
+
+# what the pxe server can install
+ubuntu_suites: [trusty, xenial, artful, bionic]
+
+veyepar_url: http://veyepar.nextdayvideo.com
