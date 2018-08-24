@@ -12,10 +12,11 @@ gw
 [xorg]
 
 [veyepar-basic]
-gw:22088
+# gw:22088
+gw
 
 [veyepar-secrets]
-gw:22088
+# gw:22088
 
 [veyepar-encoder-nfs-storage]
 
