@@ -13,10 +13,11 @@ gw
 
 [veyepar-basic]
 # gw:22088
-gw
+# gw
+nextdayvideo.com.au:22088
 
 [veyepar-secrets]
-# gw:22088
+gw:22088
 
 [veyepar-encoder-nfs-storage]
 
