@@ -1,0 +1,10 @@
+---
+static_ip: 192.168.1.10
+
+room_name: room_1
+
+blackmagic_sources:
+- card: 0
+  connection: HDMI
+  mode: 18 # (17): HD720 50p        - 720p50
+  audio: true
