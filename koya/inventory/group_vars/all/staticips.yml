@@ -1,0 +1,15 @@
+---
+staticips:
+  write_hosts: true
+  write_interfaces: true
+  gateway: 192.168.1.1
+  hosts:
+
+  - hostname: gator
+    ip: 192.168.1.10
+    mac: 54:04:a6:c3:33:03
+
+  - hostname: odroid3
+    ip: 192.168.1.11
+    # mac: 00:1e:06:33:59:9a
+
