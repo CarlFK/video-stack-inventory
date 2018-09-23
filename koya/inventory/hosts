@@ -5,6 +5,9 @@ odroid3
 [voctomix]
 gator
 
+[voctogui]
+gator
+
 [opsis]
 odroid3
 
