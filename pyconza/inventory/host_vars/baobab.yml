@@ -1,0 +1,8 @@
+---
+room_name: baobab
+
+blackmagic_sources:
+- card: 0
+  connection: HDMI
+  audio: true
+

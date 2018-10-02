@@ -1,0 +1,89 @@
+---
+boxes:
+    - hostname: qemu
+      mac: "52:54:00:12:34:56"
+
+    - hostname: bb4
+      mac: a0:8c:fd:73:dc:c8
+      tasks: ubuntu-desktop
+
+    - hostname: cnt1
+      mac: f4:6d:04:8d:d1:ea
+      tasks: ubuntu-desktop
+
+    - hostname: cnt2
+      mac: f4:6d:04:8d:d4:e9
+      tasks: ubuntu-desktop
+
+    - hostname: cnt3
+      mac: c8:60:00:6a:12:c2
+      disk: disk/by-path/pci-0000:00:1f.2-ata-3
+      # disk: sdb
+
+    - hostname: cnt4
+      mac: 54:04:a6:c3:33:03
+      disk: sdb
+
+    - hostname: cnt5
+      mac: c8:60:00:6a:13:ae
+      disk: sdb
+
+    - hostname: cnt6
+      mac: c8:60:00:6a:13:bd
+      disk: disk/by-path/pci-0000:00:1f.2-ata-3
+      # disk: sdb
+
+    - hostname: cnt7
+      mac: c8:60:00:6d:8d:ca
+
+    - hostname: odroid1
+      mac: 00:1e:06:33:5a:36
+
+    - hostname: odroid2
+      mac: 00:1e:06:33:59:9a
+
+    - hostname: odroid3
+      mac: 00:1e:06:33:c8:6c
+
+    - hostname: odroid4
+      mac:
+
+    - hostname: odroid5
+      mac:
+
+    - hostname: odroid6
+      mac:
+
+    - hostname: odroid7
+      mac:
+
+    - hostname: odroid8
+      mac:
+
+    - hostname: odroid9
+      mac: 00:1e:06:33:cc:75
+
+
+    - hostname: dc10b
+      mac: b4:99:ba:e9:5c:5c
+
+    - hostname: gator
+      mac: 80:3f:5d:08:c3:9f
+      disk: nvme0n1
+
+    - hostname: negk
+      mac: 00:26:9e:03:9d:e5
+
+    - hostname: nk2
+      mac: d8:d3:85:31:94:06
+
+    - hostname: trist
+      mac: 00:16:d3:c6:68:98
+
+    - hostname: pc8
+      mac: 00:1e:68:09:25:f6
+
+    - hostname: val1
+      mac: 00:25:90:56:1b:b0
+      disk: sda
+
