@@ -22,7 +22,7 @@ staticips:
   write_hosts: true
   write_interfaces: true
   hosts:
-  - hostname: gw
+  - hostname: go
     mac: 44:39:c4:39:a6:98
     ip: 10.20.0.1
 
