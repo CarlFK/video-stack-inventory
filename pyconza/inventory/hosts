@@ -1,5 +1,10 @@
-[onsite]
-go
+[onsite:children]
+tftp-dhcp-server
+encoder
+ge-master
+opsis
+review
+voctomix
 
 [tftp-dhcp-server]
 go
