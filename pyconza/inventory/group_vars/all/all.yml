@@ -12,7 +12,7 @@ time_zone: Africa/Johannesburg
 
 frequency: 50
 
-domain: video.za.pycon.org
+domain: videolan
 
 apt_proxy: true
 
