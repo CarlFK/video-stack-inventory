@@ -55,7 +55,7 @@ staticips:
 
 
 # Git repos:
-playbook_repo: https://anonscm.debian.org/cgit/debconf-video/ansible.git
+playbook_repo: https://salsa.debian.org/debconf-video-team/ansible.git
 # playbook_repo: https://github.com/CarlFK/video-stack-deploy.git
 playbook_branch: master
 
