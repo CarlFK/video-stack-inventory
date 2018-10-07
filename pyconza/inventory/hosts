@@ -1,93 +1,29 @@
 [onsite]
-dc10b
-gator
-cnt1
-cnt2
-cnt3
-cnt4
-cnt5
-cnt6
-cnt7
-odroid4
-odroid5
-odroid6
-odroid7
-trist
-val1
-val2
-negk
-nk2
-bb1
-bb2
-bb3
-bb4
-u2
+go
 
 [tftp-dhcp-server]
-# cnt6
-# pc8
-negk
+go
 
 [nfs-server]
 
 [voctomix]
-cnt1
-cnt5
-# cnt6
-# cnt7
-gator
 
 [opsis]
-# cnt6
-# cnt3
-# u2
 
 [xorg]
-# cnt6
-# u2
 
 [veyepar-basic]
-cnt6
-# cnt2
-val1
-val2
 
 [veyepar-secrets]
-cnt1
-# cnt2
-val1
 
 [veyepar-encoder-nfs-storage]
 
-
 [rnd]
-nk2
-gator
-# cnt1
-# cnt2
-cnt6
-trist.local
-trist
 
 [voctotests]
-voctotest
 
 [sugar]
-cnt1
-cnt2
-cnt6
-val1
-bb4
-dc10b
-u2
-gator
 
 [conky]
-cnt1
-cnt2
-cnt6
-bb4
-dc10b
-u2
-gator
+
 

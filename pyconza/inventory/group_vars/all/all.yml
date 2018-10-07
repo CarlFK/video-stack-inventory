@@ -5,29 +5,29 @@ user_password_crypted: "$6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0
 autologin: True
 
 publisher: ndv
-org: pyohio
-show: pyohio_2018
+org: lcza
+show: lcza2018
 
-time_zone: US/Central
+time_zone: Africa/Johannesburg
 
-frequency: 60
+frequency: 50
 
-domain:
+domain: za.pycon.org
 
 apt_proxy: true
 
 # apt.enable_oldstable: true
 
 staticips:
-  write_hosts: false
-  write_interfaces: false
+  write_hosts: true
+  write_interfaces: true
   hosts: []
 
 
 # Git repos:
-# playbook_repo: https://anonscm.debian.org/cgit/debconf-video/ansible.git
-playbook_repo: https://github.com/CarlFK/video-stack-deploy.git
-playbook_branch: nbpy
+playbook_repo: https://anonscm.debian.org/cgit/debconf-video/ansible.git
+# playbook_repo: https://github.com/CarlFK/video-stack-deploy.git
+playbook_branch: master
 
 # To replace the stock inventory with your own, point at your own github repo
 inventory_repo: https://github.com/CarlFK/video-stack-inventory.git
@@ -40,15 +40,7 @@ blackmagic:
     - mediaexpress: http://pc8/bm/Blackmagic_Desktop_Video_Linux_10.11.2/deb/x86_64/mediaexpress_3.5.6a2_amd64.deb
     dkms_version: 10.11.2a3
 
-voctomix:
-  display_system: x
-  framerate: 30
-
-# streaming: null
-
 serial_terminal:
-    #- flterm
-- cu
 - minicom
 
 sources:
@@ -64,6 +56,6 @@ rsync_excludes:
 - 2*.ts.wav.png
 
 # what the pxe server can install
-ubuntu_suites: [trusty, xenial, artful, bionic]
+# ubuntu_suites: [trusty, xenial, artful, bionic]
 
 veyepar_url: http://veyepar.nextdayvideo.com
