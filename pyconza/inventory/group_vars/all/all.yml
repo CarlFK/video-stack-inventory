@@ -11,6 +11,9 @@ show: lcza2018
 time_zone: Africa/Johannesburg
 
 frequency: 50
+voctomix:
+  display_system: gl
+  framerate: 25
 
 domain: videolan
 
