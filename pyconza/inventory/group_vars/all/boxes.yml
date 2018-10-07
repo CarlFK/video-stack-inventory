@@ -1,8 +1,29 @@
 ---
 boxes:
-    - hostname: odroid2
-      mac: 00:1e:06:33:59:9a
+    - hostname: gw
+      mac: 44:39:c4:39:a6:98
+      ip: 10.20.0.1
+
+    - hostname: baobab
+      mac: 00:00:00:00:00:01
+      ip: 10.20.0.10
+
+    - hostname: turbot
+      mac: 00:08:a2:0c:f3:07
+      ip: 10.20.0.11
+
+    - hostname: cedarwood
+      mac: 24:be:05:00:09:69
+      ip: 10.20.0.20
 
     - hostname: odroid3
       mac: 00:1e:06:33:c8:6c
+      ip: 10.20.0.21
 
+    - hostname: birchwood
+      mac: 00:00:00:00:00:02
+      ip: 10.20.0.30
+
+    - hostname: odroid1
+      mac: 00:00:00:00:00:01
+      ip: 10.20.0.31
