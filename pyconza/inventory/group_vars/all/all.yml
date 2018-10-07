@@ -27,7 +27,7 @@ staticips:
     ip: 10.20.0.1
 
   - hostname: baobab
-    mac: 00:00:00:00:00:01
+    mac: 24:be:05:01:07:5f
     ip: 10.20.0.10
     disk: /dev/sdf
 
