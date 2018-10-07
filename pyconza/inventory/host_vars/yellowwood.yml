@@ -3,6 +3,5 @@ room_name: yellowwood
 
 blackmagic_sources:
 - card: 0
-  connection: SDI
+  connection: HDMI
   audio: true
-

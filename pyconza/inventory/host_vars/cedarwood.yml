@@ -3,6 +3,5 @@ room_name: cedarwood
 
 blackmagic_sources:
 - card: 0
-  connection: HDMI
+  connection: SDI
   audio: true
-
