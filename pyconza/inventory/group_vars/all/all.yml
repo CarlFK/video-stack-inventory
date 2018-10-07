@@ -74,9 +74,6 @@ blackmagic:
     - mediaexpress: http://go/bm/Blackmagic_Desktop_Video_Linux_10.11.2/deb/x86_64/mediaexpress_3.5.6a2_amd64.deb
     dkms_version: 10.11.2a3
 
-serial_terminal:
-- minicom
-
 sources:
 - Camera
 - Grabber
