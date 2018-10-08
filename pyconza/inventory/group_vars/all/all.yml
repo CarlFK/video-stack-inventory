@@ -98,3 +98,4 @@ rsync_excludes:
 # ubuntu_suites: [trusty, xenial, artful, bionic]
 
 veyepar_url: http://veyepar.nextdayvideo.com
+nfs_server: go
