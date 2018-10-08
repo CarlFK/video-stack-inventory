@@ -14,6 +14,8 @@ frequency: 50
 voctomix:
   display_system: gl
   framerate: 25
+  loop_url: http://go/video/loop.ts
+  bgloop_url: http://go/video/bgloop.ts
 
 domain: videolan
 
