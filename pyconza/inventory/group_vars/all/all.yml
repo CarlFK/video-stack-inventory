@@ -74,6 +74,14 @@ blackmagic:
   - mediaexpress: http://go/bm/Blackmagic_Desktop_Video_Linux_10.11.2/deb/x86_64/mediaexpress_3.5.6a2_amd64.deb
   dkms_version: 10.11.2a3
 
+irc:
+  autostart: false
+  network: freenode
+  server: irc.freenode.net
+  ssl_port: 6697
+  global_channels:
+  - "#pyconza"
+
 sources:
 - Camera
 - Grabber
