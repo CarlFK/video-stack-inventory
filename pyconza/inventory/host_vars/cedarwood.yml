@@ -8,6 +8,7 @@ blackmagic_sources:
 
 streaming:
   method: rtmp
+  mix_channels: false
   hq_config:
     video_bitrate: 1500 # kbps
     audio_bitrate: 96000 # bps
