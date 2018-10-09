@@ -1,0 +1,35 @@
+staticips:
+  write_hosts: true
+  write_interfaces: true
+  hosts:
+  - hostname: go
+    mac: 44:39:c4:39:a6:98
+    ip: 10.20.0.1
+
+  - hostname: baobab
+    mac: 24:be:05:01:07:5f
+    ip: 10.20.0.10
+    disk: /dev/sdf
+
+  - hostname: turbot
+    mac: 00:08:a2:0c:f3:07
+    ip: 10.20.0.11
+    disk: /dev/mmcblk2
+
+  - hostname: cedarwood
+    mac: 24:be:05:00:09:69
+    ip: 10.20.0.20
+    disk: /dev/sdf
+
+  - hostname: odroid3
+    mac: 00:1e:06:33:c8:6c
+    ip: 10.20.0.21
+
+  - hostname: yellowwood
+    mac: 24:be:05:01:c5:df
+    ip: 10.20.0.30
+    disk: /dev/sdf
+
+  - hostname: odroid1
+    mac: 00:00:00:00:00:01
+    ip: 10.20.0.31
