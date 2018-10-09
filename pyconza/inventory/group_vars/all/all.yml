@@ -4,9 +4,9 @@ user_password_crypted: "$6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0
 
 autologin: True
 
-publisher: pgza
-org: pgza
-show: pgza18
+publisher: pyconza
+org: pyconza
+show: pyconza2018
 
 time_zone: Africa/Johannesburg
 
@@ -14,8 +14,8 @@ frequency: 50
 voctomix:
   display_system: gl
   framerate: 25
-  loop_url: http://go/video/pgconf-loop.ts
-  bgloop_url: http://go/video/pgconf-bgloop.ts
+  loop_url: http://go/video/pyconza-loop.ts
+  bgloop_url: http://go/video/pyconza-bgloop.ts
 
 domain: videolan
 
