@@ -3,9 +3,8 @@ room_name: baobab
 
 blackmagic_sources:
 - card: 0
-  connection: HDMI
+  connection: SDI
   audio: true
-  mode: 18
 
 streaming:
   method: rtmp
