@@ -15,7 +15,7 @@ streaming:
     audio_bitrate: 96000 # bps
     keyframe_period: 60 # seconds
   rtmp:
-    vaapi: false
+    vaapi: true
     location: !vault |
           $ANSIBLE_VAULT;1.1;AES256
           34363731313534636561353432336135346230333266326431643266623731396430343966616239
