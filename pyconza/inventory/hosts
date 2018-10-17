@@ -10,7 +10,6 @@ voctomix
 go
 
 [nfs-server]
-go
 
 [voctomix]
 baobab
