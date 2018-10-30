@@ -1,0 +1,39 @@
+[onsite]
+cnt6
+cnt5
+odroid2
+odroid3
+dc10b
+
+[rnd]
+# dc10b
+cnt5
+
+[tftp-server]
+dc10b
+
+[dhcp-server]
+dc10b
+
+[nfs-server]
+
+[voctomix]
+cnt6
+
+[voctotest]
+# cnt6
+
+[opsis]
+odroid2
+odroid3
+dc10b
+
+[xorg]
+cnt6
+
+[veyepar-basic]
+# cnt6
+dc10b
+
+[veyepar-encoder-nfs-storage]
+
