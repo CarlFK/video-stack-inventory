@@ -1,54 +1,52 @@
 ---
 user_name: juser
 user_password_crypted: "$6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0XIl86m5.IbqSOPXJ0mxVUE7y5kGFE/arHgExAxoz0kEULiplZ."
-
 autologin: True
 
 publisher: ndv
 org: nbpy
-show: nbpy17
+show: nbpy18
 room: mystic
 
 time_zone: US/Pacific
 
 domain: private.lan
 
-distro: Debian
-debian_version: stretch
-# enable_sid: True
-
-# distro: Ubuntu
-# debian_version: xenial
-# debian_version: artful
+# distro: Debian
+# debian_version: stretch
 
 apt_proxy: true
 
-apt.enable_oldstable: true
-
 # Git repos:
-# playbook_repo: https://anonscm.debian.org/cgit/debconf-video/ansible.git
-playbook_repo: https://github.com/CarlFK/video-stack-deploy.git
-# playbook_branch: pxemenu
+# playbook_repo: https://salsa.debian.org/debconf-video-team/ansible.git
+# playbook_repo: https://github.com/CarlFK/video-stack-deploy.git
+# playbook_branch: master
 
 # To replace the stock inventory with your own, point at your own github repo
 inventory_repo: https://github.com/CarlFK/video-stack-inventory.git
-inventory_branch: master
+inventory_dir: nbpy18
+
+frequency: 50
+# voctomix:
+#  display_system: gl
+#  framerate: 25
+#  loop_url: http://go/video/pyconza-loop.ts
+#  bgloop_url: http://go/video/pyconza-bgloop.ts
 
 blackmagic:
-  desktopvideo: http://10.42.0.1:8007/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/desktopvideo_10.9.7a2_amd64.deb
-#  desktopvideo_gui: http://pc8/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/desktopvideo-gui_10.9.7a2_amd64.deb
-  mediaexpress: http://10.42.0.1:8007/bm/Blackmagic_Desktop_Video_Linux_10.9.7a2/deb/amd64/mediaexpress_3.5.3a1_amd64.deb
-  dkms_version: 10.9.7a2
+  urls:
+  - desktopvideo: http://pc8/bm/Blackmagic_Desktop_Video_Linux_10.11.2/deb/x86_64/desktopvideo_10.11.2a3_amd64.deb
+  - desktopvideo_gui: http://pc8/bm/Blackmagic_Desktop_Video_Linux_10.11.2/deb/x86_64/desktopvideo-gui_10.11.2a3_amd64.deb
+  - mediaexpress: http://pc8/bm/Blackmagic_Desktop_Video_Linux_10.11.2/deb/x86_64/mediaexpress_3.5.6a2_amd64.deb
+  dkms_version: 10.11.2a3
 
-videodisplay:
-  system: x
-
-# streaming: null
-
-serial_terminal:
-    #- flterm
-- cu
-- minicom
+irc:
+  autostart: false
+  network: freenode
+  server: irc.freenode.net
+  ssl_port: 6697
+  global_channels:
+  - "#nbpy"
 
 sources:
 - Camera
@@ -61,3 +59,5 @@ rsync_excludes:
 - 2*.ts
 - 2*.ts.mp4
 - 2*.ts.wav.png
+
+# veyepar_url: http://veyepar.nextdayvideo.com

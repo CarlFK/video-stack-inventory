@@ -8,10 +8,10 @@ domain: private.lan
 video_disk: /dev/sda1
 
 blackmagic_sources:
-# JVC 4k
+# Panasonic
 - card: 0
-  connection: SDI
-  mode: 17 # (17): HD720 50p        - 720p50
+  connection: HDMI
+  mode: 18
   audio: true
 
 # Mini JVC, audio from usb audio dongle

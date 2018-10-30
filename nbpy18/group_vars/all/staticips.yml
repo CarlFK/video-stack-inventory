@@ -1,6 +1,9 @@
 ---
 staticips:
-  gateway: 10.42.0.1
+  write_hosts: true
+  write_interfaces: true
+  # gateway: 10.42.0.1
+  gateway: 192.168.1.1
   hosts:
   - hostname: dc10b
     mac: b4:99:ba:e9:5c:5c
@@ -8,6 +11,7 @@ staticips:
   - hostname: cnt6
     ip: 10.42.0.10
     mac: c8:60:00:6a:13:bd
+    disk: /dev/sdc
   - hostname: odroid2
     ip: 10.42.0.12
     mac: 00:1e:06:33:59:9a
