@@ -27,9 +27,9 @@ inventory_repo: https://github.com/CarlFK/video-stack-inventory.git
 inventory_dir: nbpy18
 
 frequency: 50
-# voctomix:
-#  display_system: gl
-#  framerate: 25
+voctomix:
+  display_system: x # gl
+  framerate: 30
 #  loop_url: http://go/video/pyconza-loop.ts
 #  bgloop_url: http://go/video/pyconza-bgloop.ts
 
