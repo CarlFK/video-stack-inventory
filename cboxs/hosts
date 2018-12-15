@@ -21,6 +21,8 @@ bb1
 bb2
 bb3
 bb4
+bb5
+bb7
 u2
 
 [tftp-dhcp-server]
@@ -46,6 +48,7 @@ cnt5
 [xorg]
 # cnt6
 # u2
+dc10b
 
 [veyepar-basic]
 cnt6
@@ -82,6 +85,8 @@ bb4
 dc10b
 u2
 gator
+bb5
+bb7
 
 [conky]
 cnt1
@@ -91,4 +96,7 @@ bb4
 dc10b
 u2
 gator
+bb5
+bb7
+
 
