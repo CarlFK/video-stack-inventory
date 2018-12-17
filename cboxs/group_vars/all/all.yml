@@ -5,7 +5,7 @@ user_password_crypted: "$6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0
 autologin: True
 
 publisher: ndv
-org:ps1
+org: ps1
 show: cpx18
 
 time_zone: US/Central
