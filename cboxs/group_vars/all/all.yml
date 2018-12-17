@@ -5,14 +5,14 @@ user_password_crypted: "$6$khprmotoVWYLZY2W$Gj5Y6p4R.LsXQdL2xf6umhInzZ9GCG6USXB0
 autologin: True
 
 publisher: ndv
-org: pyohio
-show: pyohio_2018
+org:ps1
+show: cpx18
 
 time_zone: US/Central
 
 frequency: 60
 
-domain:
+# domain:
 
 apt_proxy: true
 
@@ -25,9 +25,9 @@ staticips:
 
 
 # Git repos:
-# playbook_repo: https://anonscm.debian.org/cgit/debconf-video/ansible.git
-playbook_repo: https://github.com/CarlFK/video-stack-deploy.git
-playbook_branch: nbpy
+playbook_repo: https://anonscm.debian.org/cgit/debconf-video/ansible.git
+# playbook_repo: https://github.com/CarlFK/video-stack-deploy.git
+playbook_branch: cboxs
 
 # To replace the stock inventory with your own, point at your own github repo
 inventory_repo: https://github.com/CarlFK/video-stack-inventory.git

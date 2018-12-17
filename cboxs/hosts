@@ -38,7 +38,7 @@ cnt1
 cnt5
 # cnt6
 # cnt7
-# gator
+gator
 
 [opsis]
 # cnt6
@@ -49,6 +49,7 @@ cnt5
 # cnt6
 # u2
 dc10b
+gator
 
 [veyepar-basic]
 cnt6
