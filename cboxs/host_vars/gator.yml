@@ -1,9 +1,9 @@
 ---
-room_name: spare
+room_name: electronics_lab
 
 blackmagic_sources:
 - card: 0
-  connection: SDI
+  connection: HDMI
   audio: true
 
 sources:
