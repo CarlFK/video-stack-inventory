@@ -1,5 +1,32 @@
 ---
+# cnt6:
+# eth_local_mac_address: c8:60:00:6a:13:bd
+
+# video_disk: /dev/sda1
+video_disk: /dev/disk/by-path/pci-0000:00:1f.2-ata-1-part1
+
 sources:
-- test1
-- test2
-- test3
+- Test1
+- Test2
+- Test3
+
+ingest_sources:
+- description: "test pattern: bars and beeps"
+  video-source: test
+  video-attribs: pattern=smpte
+  audio-source: test
+  audio-attribs: wave=ticks
+  port: 10000
+- description: "test pattern: ball and white-noise"
+  video-source: test
+  video-attribs: pattern=ball
+  audio-source: test
+  audio-attribs: wave=white-noise
+  port: 10001
+- description: "test pattern: viz and beep"
+  video-source: spacescope
+  video-attribs:
+  audio-source: test
+  audio-attribs: wave=ticks
+  port: 10002
+
