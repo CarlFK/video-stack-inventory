@@ -1,6 +1,6 @@
 [onsite]
 dc10b
-gator
+# gator
 cnt1
 cnt2
 cnt3
@@ -38,7 +38,7 @@ cnt1
 cnt5
 # cnt6
 # cnt7
-gator
+# gator
 
 [opsis]
 # cnt6
@@ -49,18 +49,21 @@ gator
 # cnt6
 # u2
 dc10b
-gator
+# gator
 
 [veyepar-basic]
 cnt6
 # cnt2
 val1
 val2
+gator
+voctotest
 
 [veyepar-secrets]
 cnt1
 # cnt2
 val1
+gator
 
 [veyepar-encoder-nfs-storage]
 
@@ -74,7 +77,7 @@ cnt6
 trist.local
 trist
 
-[voctotests]
+[voctomix]
 voctotest
 
 [sugar]
@@ -85,7 +88,7 @@ val1
 bb4
 dc10b
 u2
-gator
+# gator
 bb5
 bb7
 
