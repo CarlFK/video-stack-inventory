@@ -64,6 +64,8 @@ cnt1
 # cnt2
 val1
 gator
+voctotest
+cnt6
 
 [veyepar-encoder-nfs-storage]
 
@@ -78,7 +80,7 @@ trist.local
 trist
 
 [voctomix]
-voctotest
+# voctotest
 
 [sugar]
 cnt1
