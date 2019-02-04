@@ -69,4 +69,4 @@ ubuntu_suites: [trusty, xenial, artful, bionic]
 
 veyepar_url: http://veyepar.nextdayvideo.com
 
-skip_unit_test: false
+# skip_unit_test: false
