@@ -23,15 +23,13 @@ staticips:
   write_interfaces: false
   hosts: []
 
-
 # Git repos:
-playbook_repo: https://anonscm.debian.org/cgit/debconf-video/ansible.git
+playbook_repo: https://salsa.debian.org/debconf-video-team/ansible
 # playbook_repo: https://github.com/CarlFK/video-stack-deploy.git
-playbook_branch: cboxs
+playbook_branch: master
 
-# To replace the stock inventory with your own, point at your own github repo
 inventory_repo: https://github.com/CarlFK/video-stack-inventory.git
-inventory_branch: master
+inventory_repo_dir: cboxs
 
 blackmagic:
     urls:
@@ -50,7 +48,7 @@ voctomix:
 serial_terminal:
     #- flterm
 - cu
-- minicom
+- tio
 
 sources:
 - Camera
@@ -65,8 +63,7 @@ rsync_excludes:
 - 2*.ts.wav.png
 
 # what the pxe server can install
-ubuntu_suites: [trusty, xenial, artful, bionic]
+ubuntu_suites: [trusty, xenial, artful, bionic, cosmic]
 
 veyepar_url: http://veyepar.nextdayvideo.com
 
-# skip_unit_test: false
