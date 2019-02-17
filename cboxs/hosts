@@ -1,30 +1,17 @@
 [onsite:children]
-dc10b
-# gator
-cnt1
-cnt2
-cnt3
-cnt4
-cnt5
-cnt6
-cnt7
-odroid4
-odroid5
-odroid6
-odroid7
-trist
-val1
-val2
-negk
-nk2
-bb1
-bb2
-bb3
-bb4
-bb5
-bb7
-u2
-voctotest
+tftp-dhcp-server
+nfs-server
+nfs-server
+voctomix
+opsis
+xorg
+veyepar-basic
+veyepar-secrets
+veyepar-encoder-nfs-storage
+rnd
+sugar
+conky
+
 
 [tftp-dhcp-server]
 # cnt6
@@ -48,7 +35,7 @@ cnt5
 # u2
 
 [xorg]
-cnt6
+# cnt6
 # u2
 dc10b
 # gator
@@ -57,7 +44,7 @@ dc10b
 # cnt2
 val1
 val2
-gator
+# gator
 voctotest
 cnt6
 
@@ -65,7 +52,7 @@ cnt6
 cnt1
 # cnt2
 val1
-gator
+# gator
 voctotest
 cnt6
 
@@ -74,12 +61,13 @@ cnt6
 
 [rnd]
 nk2
-# gator
+gator
 # cnt1
 # cnt2
 # cnt6
 trist.local
 trist
+bare
 
 [sugar]
 cnt1
@@ -89,7 +77,7 @@ val1
 bb4
 dc10b
 u2
-# gator
+gator
 bb5
 bb7
 
@@ -100,7 +88,7 @@ cnt6
 bb4
 dc10b
 u2
-gator
+# gator
 bb5
 bb7
 
