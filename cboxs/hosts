@@ -17,6 +17,7 @@ conky
 # cnt6
 # pc8
 negk
+trist
 
 [nfs-server]
 
@@ -65,8 +66,6 @@ gator
 # cnt1
 # cnt2
 cnt6
-trist.local
-trist
 bare
 
 [sugar]
