@@ -1,11 +1,15 @@
 ---
-room_name: electronics_lab
+room_name: KitchenJ
 
 blackmagic_sources:
 - card: 0
   connection: HDMI
   audio: true
+- card: 1
+  connection: HDMI
+  audio: false
 
 sources:
-- Camera
-- Grabber
+- Camera1
+- Camera2
+- Camera3

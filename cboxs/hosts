@@ -25,9 +25,10 @@ trist
 dc10b
 cnt1
 cnt5
+cnt2
 # cnt6
 # cnt7
-# gator
+gator
 # voctotest
 
 [opsis]
@@ -63,7 +64,7 @@ cnt6
 
 [rnd]
 nk2
-gator
+# gator
 # cnt1
 # cnt2
 cnt6
@@ -88,7 +89,7 @@ cnt6
 bb4
 dc10b
 u2
-# gator
+gator
 bb5
 bb7
 
