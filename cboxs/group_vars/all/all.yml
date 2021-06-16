@@ -40,8 +40,10 @@ blackmagic:
 
 voctomix:
   display_system: x
-  framerate: 30
   previews: false
+  mirrors: false
+  framerate: 30
+  autostart_gui: false
 
 # streaming: null
 
